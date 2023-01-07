@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="hu"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="hu"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="hu"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="hu">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<title>Linux web- és mail szerver konfigurálása - Gondolatok (Fazekas László blogja)</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="Android, Android fejlesztő, Android programozó, Gondolatok, Fazekas László, PHP, PHP fejlesztő, J2EE, Java, J2EE fejelsztő, szabadúszó, programozó" />
+	<meta name="description" content="Gondolatok - Fazekas László blogja" />
+	<meta name="robots" content="index, follow, max-video-preview:-1, max-snippet:-1, max-image-preview:large" />
+	<meta property="og:locale" content="hu_HU" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Linux web- és mail szerver konfigurálása" />
+	<meta property="og:description" content="Linux web- és mail szerver konfigurálása" />
+	<meta property="og:site_name" content="Gondolatok (Fazekas László blogja)" />
+	<meta property="article:published_time" content="2017-02-09 09:35:59" />
+	<meta property="article:modified_time" content="2018-11-20 11:22:07" />
+	<link rel="stylesheet" href="../../assets/css/bootstrap.css">
+	<link rel="stylesheet" href="../../assets/css/bootstrap-responsive.css">
+	<link rel="stylesheet" href="../../assets/css/app.css">
+	<style>
+		.blog-title {
+			opacity: 0.1;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			width: 100%;
+			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+			filter: alpha(opacity=10);
+		}
+
+		.blog-title h1 {
+			font-size: 30px;
+			line-height: 30px;
+			color: #000;
+		}
+
+		.blog-title p {
+			font-size: 20px;
+			color: #000;
+		}
+
+		.blog-content {
+			color: rgb(77, 77, 77);
+			font-family: 'proxima-nova', sans-serif;
+			font-weight: 500;
+			line-height: 1.5em;
+			font-size: 16px;
+		}
+
+		.blog-content h2 a {
+			font-size: 25px;
+			line-height: 25px;
+			color: rgb(58, 58, 58);
+			font-weight: 600;
+		}
+
+		.blog-content h1 {
+			font-size: 30px;
+			line-height: 30px;
+			color: rgb(58, 58, 58);
+			font-weight: 600;
+		}
+
+		.widget {
+			background-color: #eee;
+			padding: 5px;
+			margin-top: 10px;
+		}
+
+		.widget h3 {
+			font-size: 14px;
+			color: #999;
+		}
+
+		.widget h3 a {
+			font-size: 14px;
+			color: #999;
+			text-decoration: none;
+		}
+
+		.widget .rsswidget img {
+			display: none;
+		}
+
+		#google_translate_element select {
+			width: 180px;
+		}
+	</style>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-13010823-17"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-13010823-17');
+	</script>
+</head>
+
+<body class="post-template-default single single-post postid-727 single-format-standard 727">
+	<header role="banner">
+		<div class="blog-title">
+			<div style="background-color: #bbb; padding-left: 30px; padding-bottom: 2px; padding-top: 2px;">
+				<h1>Gondolatok (Fazekas László blogja)</h1>
+				<p>Bármi ami épp folgalkoztat</p>
+			</div>
+		</div>
+	</header>
+	<div class="wrap container" role="document">
+		<div class="content row blog-content">
+			<div class="span2 hidden-phone hidden-tablet" style="margin-left: 70px;"></div>
+			<div class="span7" style="margin-left: 0px;" role="main">
+				<article class="post-727 post type-post status-publish format-standard hentry category-nincs-kategorizalva">
+					<header>
+						<h1 class="entry-title">Linux web- és mail szerver konfigurálása</h1>
+					</header>
+					<div class="entry-content">
+						<div class="gpb-content"><br />Valamivel több mint 10 éve üzemeltetek egy kis webhosting szolgáltatást. Most a legutóbbi szerver költöztetés kapcsán gondoltam összeírom, hol milyen megoldásokat használtam, hátha másnak is hasznos lehet. Nem gondolom, hogy nagy szakértője lennék a témának. Inkább vagyok programozó, és e mellett csak amolyan hobbi rendszergazda. Azt sem állítom, hogy ezek a legjobb megoldások. Én ezeket választottam. Igazándiból a tudásom nagy részét a netről, ingyenes howto-kból és doksikból szedtem össze, és kicsit úgy érzem, hogy egy ilyen írással visszaadhatok valami keveset ebből. Részletes leírást azért senki ne várjon egy blogbejegyzésben, ez a bejegyzés inkább csak egy váz. Tulajdonképpen csak egy felsorolás a felhasznált komponensekről. Úgy gondolom, hogy már ez is hatalmas segítség lehet. Akit pedig a téma mélyebben érdekel, az talál hozzá anyagot a neten.<br /><br />A szerver<br /><br />Még 2005-ben, mikor a szolgáltatást indítottuk, nem volt ekkora divat a cloud. Ahogy mindenki más, mi is vettünk egy izmos PC-t, és beraktuk egy szerver terembe. Azóta sokat változott a világ. Ha valaki valamilyen Internetes szolgáltatást akar indítani, mindenképp valamelyik nagy felhő szolgáltatót ajánlanám neki. Mi az Amazon szolgáltatásait szoktuk használni. Baromi egyszerű az egész. Kell egy domborkártya (minden banknak van már ilyen, és nem is drága), regisztrálunk, pár kattintás, és van egy szerverünk. A legjobb az egészben, hogy nincs gond a hardverrel. Ezt persze csak az tudja igazán értékelni, akit mondjuk már hívtak éjfél környékén azzal, hogy bekrepált a szerver, és vakarhatta a fejét, hogy reggelre hogy kéne életre pofozni. E mellett totál dinamikus az egész. Bármikor bérelhetünk új szervert, cserélhetjük nagyobbra, kisebbre, állítgathatjuk a RAM-ot, a HDD-t, bármit kényelemesen a fotelből. Szóval a cloud király dolog! Az esetek 90%- ában ez a helyes megoldás. A legtöbb esetben már nem érdemes saját hardverrel szórakozni. Nálam két probléma volt ezzel. Egyfelől a felhős megoldásoknál fizetni kell az adatforgalom után (szerverterem esetén ez korlátlan), másfelől a domainjeinkhez rendelt IP miatt kötve voltunk a szolgáltatóhoz (baromi körülményes lenne vagy 100 domint átregisztrálni). Első körben VPS-re váltottunk, ami sok előnyét hozza a cloud-os megoldásnak, de azért mégsem az. Jó ideig ment a dolog, de aztán a legnagyobb VPS-en is le- lehalt a szerver néha. Az lett végül a konklúzió, hogy kellene egy full szervernyi kapacitás a szolgáltatás alá, így döntöttünk a bérelt szerver mellett. Saját szervert semmiképp nem akartunk újra. A bérelt szervernél ugye a szolgáltató menedzseli a hardvert. Ha valami gebasz van, telefon, és már cserélik is az alkatrészt, a gépet pedig távolról el lehet érni IP konzolon úgy, mint ha előtte ülnénk. Nem olyan kényelemes mint a cloud, még csak annyira sem, mint a VPS, de még mindig fotelből intézhető, és az embernek van egy saját szervere. Ráadásul pár ezer forintba kerül a hosting díj felett, így ha beszámoljuk az amortizációt, az esetleges javításokat, és hogy nincs vele idegeskedés, arra jutunk, hogy abszolút megéri. Kell a francnak saját hardver.<br /><br />Elsődleges backup<br /><br />Tehát adva volt egy bérelt szerver. Az első, és egyik legfontosabb dolog, hogy gondoskodjunk a backupról. Bár alap, hogy RAID vezérlő, meg tükrözött vinyók legyenek egy szerverben, azért még mindig beüthet valami istennyila. Cloud-nál ugye nem olyan kritikus a helyzet, mert eleve többszörösen redundáns tárolók vannak (azért ott is kell backup), VPS esetén meg a szolgáltató csinált hetente mentést, de itt nincs semmi, csak a RAID tömb. A szolgáltató javasolt egy tök jó megoldást. Ma már fillérekért lehet kapni 1Tb-os külső vinyót. Rakjunk be mellé egy olyat, arra lehet backupolni. Ez így már egy egész biztonságos megoldás. Ha valamiért úgy kipurcanna a RAID tömb, hogy nem lehet visszaállítani, semmi gond, ott a külső vinyó.<br /><br />Szoftveres alapok<br /><br />Megvolt tehát a bérelt szerver, tükrözött vinyóval és egy külső USB-s backup vinyóval. Jöhetett a rendszer. A szerverünkön mindig Debian volt, és ezen a jó szokásomon nem akartam változtatni. Ezt ismerem, ez vált be, stb. Ha most indulnék neki nulláról, valószínűleg Ubuntut választanék (az is Debian), de jól bevált dolgokat nem érdemes piszkálni. Mivel az egyik ügyfélnek mindenképp szeparált környezetre volt szüksége, ezért adott volt, hogy legyen 2 VPS a bérelt szerveren. Ha nem ez lett volna a helyzet, és elég lett volna egy szerver, akkor is VPS-ként alakítottam volna ki a fizikai szerveren, mert a VPS-nek van egy csomó előnye és a mai hardverek mellett minimális az overhead-je. Az egyik legnagyobb előny, hogy többé nem nagyon kell IP konzol. Ha gebasz van a szerverrel, belépünk a host gépre és kívülről orvosoljuk a problémát. A VPS-eket Xen-el alakítottam ki, erről írtam is egy rövid bejegyzést: <a href="http://gp.estontorise.hu/archives/135173" class="ot-anchor">http://gp.estontorise.hu/archives/135173</a> . A szerverben lévő 500Gb-os virtuális vinyón (ami ugye 2 vinyó, de a RAID miatt simán 1-nek látszik) létrehoztam egy 80G-s rendszer partíciót, a maradékot pedig hagytam egyben. Ebből egy LVM drive készült, amin később alakítottam ki logikai partíciókat. Az LVM egy baromi jó dolog. Tud egy rakás okosságot, de ami a leges legjobb benne az a snapshot. Mikor LVM partíciókat csinálunk, érdemes szabadon hagyni egy pár Gb területet, ahová létre lehet hozni átmeneti snapshot partíciót. Ez egy virtuális másolat egy meglévő partícióról, ami egy pillanat alatt elkészül. Az a trükk, hogy ez csak virtuális másolat, amit úgy ér el a rendszer, hogy a snapshot területen csak a változásokat vezeti. Röviden annyi a lényeg, hogy a rendszer simán fut, össze vissza írhatja az eredeti partíciót, nekünk van róla egy másolatunk a snapshotolás időpontjából. Ez ugye arra jó, hogy ezt a másolatot közben simán lementhetjük. Mondjuk hetente nyomunk egy ilyen mentést a fájlrendszer aktuális állapotáról ki az USB vinyóra. Ha beüt az isten nyila, és tönkremegy a rendszer, nem esünk kétségbe, simán visszahúzzuk a snapshotot az lvm partícióra, és mehet tovább minden a maga útján. Ahhoz, hogy a teljes vinyót vissza tudjuk állítani, kell még pár dolog. Kell a partíciós tábla, amit sfdisk-el le lehet szedni, és vissza lehet állítani. Kell egy snapshot a host rendszerről. Ehhez sajnos le kell állítanunk a szervert, és bebootolni CD-ről (vagy pendrive-ról), hogy elérhessük direktbe a fájlrendszert. Eztán tudunk csinálni egy snapshotot (simán dd-vel) a rendszerről. Az a jó, hogy a host rendszer nem nagyon változik, tehát ezt elég egyszer az elején, ha már mindent összelőtünk. A VPS-t utána a host rendszerről az LVM-nek köszönhetően bármikor snapshotolgathatjuk a VPS leállítása nélkül. Ami még kell, az az LVM partíciók, de az LVM szerencsére okos, és a host rendszeren az etc-be szépen tárolja a saját kiosztását, ami alapján visszaállítható. Tehát ha van egy szűz vinyónk, akkor az USB-s vinyóról első körben felhúzzuk a partíciós táblát, aztán a host rendszert, a host rendszerből már felhúzhatjuk az lvm partíciót (ott van hozzá minden az etc-ben), a snapshotokból a partíciók tartalmát, aztán elindítjuk a VPS-eket, és voila, visszaállt a rendszer. A mentett snapshotokról érdemes még távoli backupot is csinálni vész-vész tartaléknak. Amazon Glacier-ben 500G jelenlegi árfolyamon havi 650Ft. Ezért cserébe olyan biztonságban lesz a backupunk, hogy ha a szervertermet atomtámadás érné, mi akkor is csak legyinthetünk, hiszen a zsír új szerverünkre simán pár óra alatt visszahúzhatjuk a rendszert.<br /><br />Napi mentés és inkrementális backup<br /><br />Backupból soha nem elég! Az egy dolog, hogy hetente csinálunk egy mentést glacier-be, ami atomtámadás esetén ugye elfogadható, de normál működés esetén egy hét vége felé bekövetkezett meghibásodás esetén ne menjen már a levesbe 1 heti adat. Én ezt úgy oldottam meg, hogy óránként rsync-elem az érzékenyebb dolgokat (pl. mysql adatbázisokról készült hotcopy) az USB-s vinyóra. Ebből vissza lehet állítani hamar az aktuális állapotot, ha kéne. E mellett van egy 30 napos inkrementális backup, ami arra jó, ha pl. az ügyfél elbarmol valamit. Ezt nálam dupicity csinálja minden nap végén, és S3-ba megy. Erről itt írtam picit: <a href="http://gp.estontorise.hu/archives/135265" class="ot-anchor">http://gp.estontorise.hu/archives/135265</a> . Itt ugye megint távoli backupról van szó, ami ugye atomtámadás esetén is megmarad, így legrosszabb esetben is maximum 1 napi adat veszhet el elvileg. Persze azért titkon nagyon remélem, hogy nem nagyon kell egyik backuphoz sem nyúlni.<br /><br />Alap rendszer (tűzfal, ssh)<br /><br />Ha összeálltak a VPS-ek és a backup, a tűzfallal érdemes indítani, még minden előtt. Én az ufw-t használom. Nagyon jó, nagyon egyszerű. Alapból minden le van tiltva, és szolgáltatásonként lehet engedélyezni. Host-on elég az ssh-t kiengedni, a VPS-eken meg ami kell (HTTP, FTP, stb.) A következő komponens az ssh, hogy be tudjunk jelentkezni a szervereinkre. Itt a root elérést érdemes tiltani, és felvenni egy usert, aztán csak annak engedni ssh-t. Ennek a usernek kell egy jó erős jelszó, esetleg egy privát kulcs. Pár percnyi konfig, és kapunk egy tök biztonságos rendszert. Fájl transzferhez is érdemes inkább SCP-t használni FTP helyett, ha van rá lehetőség, hiszen akkor nem kell egy plusz szolgáltatás, ráadásul titkosított a kapcsolat. A host rendszer ezzel kb. kész is. Időnként azért nézzünk be rá, frissítgessük a csomagokat, stb. Eddig volt tehát az általános rész, jöhetnek a felhasználás specifikus dolgok.<br /><br />LAMP stack<br /><br />Mivel nálunk egy hosting rendszerről volt szó, ezért ide egy LAMP stack (Linux Apache MySQL PHP) kellett. Itt nyilván lehet variálni a komponenseket, másik webszerver, másik adatbázis kezelő, stb. Nálunk ez volt már a kezdetektől, meg kb. ez a legelterjedtebb. A MySQL-en olyan sokat nem konfiguráltam. Nálunk minden userhez tartozik egy MySQL user, meg egy adatbázis, oda lehet garázdálkodni. PHP esetén pár veszélyforrást jelentő fv. hívást le lehet tiltani, a feltöltési méreteket, esetleg a futási időket érdemes módosítgatni. Az apache-nál már kicsit többet variáltam. Név alapú virtuális hosztok vannak, amihez engedélyezni kell a vhost_alas modult. Érdemes még bekapcsolni pár modult, rewrite, stb. E mellett mi használunk egy mod_ruid2 nevű modult, ami az adott vhost alá tartozó dolgokat a konfigban megadott userrel futtatja. Nálunk minden ügyfélhez tartozik egy linux user, aki a saját könyvtárába töltheti fel a webtartalmat, az apache pedig innen szolgája ki az adott user jogosultságaival. Így tehát a PHP scriptek is az adott user jogosultságával futnak, ami azért jó, mert ha felnyomják a weboldalt, akkor is csak az adott user tárhelyén tud garázdálkodni a támadó. E mellett az egész apache elszigetelt chroot környezetben fut, tehát elvileg semmi esélye a támadónak, hogy kijusson a szerverre. (A leírás alapján a mod_ruid is tudna chroot-ot, de azt nem próbáltam.) Van még egy mod_evasive nevű modul, ami azt csinálja, hogy feete listára teszi azokat az IP-ket, amik adott időkereten belül egy adott értéknél többször nyitják meg ugyanazt a lapot (pl. tipikusan a wp-login.php-t). Sokszor látszik az access log-ban, hogy próbálják törögetni a rendszert brute force-al. Legtöbbször a wordpress site-ok login oldalát, a fent is említett wp-login.php-t. Az egy dolog, hogy ha elég sokat próbálják, akkor esetleg feltörhetik az adott oldalt, ami még ennél is rosszabb, hogy a pillanatnyi nagy terheléssel DoS-olják a szervert. Elvileg ezt hivatott kivédeni a mod_evasive. Ezt a modult csak pár napja találtam, így nincs tapasztalatom vele, de gondoltam beleírom ebbe a bejegyzésbe, hátha másnak is van hasonló problémája.  Kb. ennyi amit érdemes elmondani a mi LAMP konfigunkról, a többit howtokból össze lehet szedni.<br /><br />Levelezés<br /><br />Levelezéshez én SMTP-nek Postfix-et használok. Ezt ismerem, meg vagyok vele elégedve. Az IMAP és POP3 kiszolgáló pedig dovecot. Ez egy nagyon okos kis szoftver. Tud sima IMAP-ot, POP3-at, IMAPS-t, POP3S-t, és ami nekem fontos volt, tud MySQL-ből dolgozni, ahogyan a Postfix is. Nálunk az e-mail accountok MySQL-ben vannak tárolva, ami azért kényelmes, mert könnyen lehet őket PHP-ból adminisztrálni. Van ugyanis egy kis PHP-s adminunk, ahol az ügyfelek felvehetnek maguknak e-mail címeket. Ha fix címeink vannak, vagy amúgy is kézzel adminisztrálnánk, akkor teljesen felesleges MySQL-el bajlódni, de nekünk pont jól jött ez a megoldás. E mellett még telepítettünk egy spamassassint, ami egy egész használható spam szűrő. Sajnos a mai világban, ahol a levelek több mint fele spam, szükség is van rá, de még így is rengeteg spam átcsúszik.<br /><br />A maradék (FTP, bind, stb.)<br /><br />Ha nem fekszik az SCP, akkor ugye kell FTP elérést biztosítani. Mi ehhez a vsftp-t választottuk. Nagyon kompakt kis szoftver, nem tud olyan sokat, viszont amit tud, azt jól. A legfontosabb, hogy be tudja chroot-olni a usereket a saját kis könyvtárukba, hogy csak ott garázdálkodjanak. Mivel van domain szolgáltatásunk, ezért telepítettem bind-ot, az órát is érdemes szinkronban tartani ntp-vel, így raktam fel azt is. A MySQL adminisztrációhoz telepítettünk phpmyadmint, a webes levelező rendszer pedig roundcube. Ez egy nagyon profi kis webmail megoldás. Ha valakinek mégsem jönne be, legrosszabb esetben csinál egy GMail accountot, behúzza IMAP-on vagy POP3-on a leveleket, és tessék, ott van egy profi webmail, amit az általunk szolgáltatott e-mail címmel használhat. Ezek mellett van egy saját, PHP-ben készült admin felületünk, amiről már írtam.<br /><br />Hát, dióhéjban ennyi. Ezek azok a megoldások, amiket én választottam. Tudom, hogy nem volt egy információ cunami, de az a tapasztalatom, hogy sokszor a legnehezebb kérdés, hogy a sok elérhető megoldásból melyiket válasszuk. Ez az írás pont ebben próbál segíteni. Minden másra ott a Google ... <br /><br /><a rel="nofollow" class="ot-hashtag" href="https://plus.google.com/s/%23blog/posts">#blog</a></div><p class='gpb-links' style='clear:both;'> <a class='gpb-linkback' href='https://plus.google.com/+LaszloFazekas/posts/dZbvkGt9aLg' target='_new'>View this post on Google+</a></p>
+					</div>
+					<footer>
+						
+					</footer>
+				</article>
+			</div><!-- /.main -->
+			<aside role="complementary">
+				<div class="span3" style="width: 190px; opacity: 0.6; font-size: 10px;">
+					<div style="background-color: #eee; padding: 5px;"><a rel="author" href="https://plus.google.com/115334992192871078712?rel=author" target="_blank">
+							<img src="../assets/img/profile.jpg" class="img-rounded" alt="Laszlo Fazekas (TheBojda) - Szabad�sz� Android, PHP, J2EE fejleszt?">
+						</a>
+						<div data-href="//plus.google.com/115334992192871078712" data-rel="author" style="display: none;"></div>
+						<p style="margin-top: 10px;">
+							Szabadúszó fejlesztőként dolgozom már jópár éve. Főleg J2EE, Android, és PHP projekteket vállalok, de sok más technológiába belekóstoltam már.
+							Bővebb információért olvasd el <a href="../../assets/fazekas_laszlo_cv_hu.pdf">szakmai önéletrajzomat</a>.</p>
+						<p>Hobbim a programozás mellett az olvasgatás. Főleg a természettudományok érdekelnek, azon belül is leginkibb a fizika.</p>
+						<p>A jelenlegi mellett van egy új blogom <a href="https://medium.com/@thebojda">Medium</a>-on, egyéb gondolataimat, vagy az általam érdekesnek talált cikkeket/híreket pedig általában <a
+								href="https://plus.google.com/115334992192871078712">Google+</a>-on osztom meg. A jobb bejegyzéseknek kicsatornáztam egy külön blogba, amit a <a href="http://gp.estontorise.hu/" target="_blank">gp.estontorise.hu</a>
+							címen érhetsz el. Ha nem használod a Google+-t, de szeretnél követni, akkor megteheted <a href="https://www.facebook.com/laszlofazekas.googleplus" target="_blank">Facebook</a>-on, vagy <a
+								href="https://twitter.com/TheBojda" target="_blank">Twitteren</a> is. E-mailben pedig a <a id="email" href="#"></a> címen érhetsz el.</p>
+						<script>var mail = document.getElementById("email"); mail.innerHTML = "laszlo" + "." + "fazekas" + "@" + "estotorise." + "hu";</script>
+						<p>
+							<a href="https://twitter.com/TheBojda" target="_blank"><img src="../assets/img/twitter.png" alt="twitter" /></a>
+							<a href="https://github.com/TheBojda" target="_blank"><img src="../assets/img/github.png" alt="github" /></a>
+						</p>
+					</div>
+				</div>
+			</aside><!-- /.sidebar -->
+		</div><!-- /.content -->
+	</div><!-- /.wrap -->
+	<script type="text/javascript">
+		user = 'mailto:' + 'laszlo' + '.' + 'fazekas';
+		document.getElementById('email').href = user + '@' + 'estontorise' + '.hu';
+	</script>
+</body>
+
+</html>

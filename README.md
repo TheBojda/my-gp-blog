@@ -1,498 +1,499 @@
 
 # my-gp-blog
-This is a backup of my Google Plus Wordpress blog. (http://gp.estontorise.hu/)
+This is a backup of my Google Plus Wordpress blog.  (http://gp.estontorise.hu/)
 
-[Szerintem szimbolikus kép ](https://thebojda.github.io/my-gp-blog/posts/31.html)
 
-[Kompakt fúziós erőművek jöhetnek a nem is olyan távoli jövőben](https://thebojda.github.io/my-gp-blog/posts/32.html)
+[Mediumra költöztem](https://thebojda.github.io/my-gp-blog/archives/3)
 
-[Jöhetnek a tetovált eszközök](https://thebojda.github.io/my-gp-blog/posts/39.html)
+[Amazon LightSail](https://thebojda.github.io/my-gp-blog/archives/135426)
 
-[Futtathatóak lesznek a Windows app-ok Androidon (wine for android)](https://thebojda.github.io/my-gp-blog/posts/40.html)
+[Gondolatolvasás fénnyel](https://thebojda.github.io/my-gp-blog/archives/135420)
 
-[Google+ bejegyzések olvasása PHP-ből](https://thebojda.github.io/my-gp-blog/posts/41.html)
+[Fény alapú neurális hálók](https://thebojda.github.io/my-gp-blog/archives/135414)
 
-[Egy koncepció videó bogárszerű mini drone-okról](https://thebojda.github.io/my-gp-blog/posts/42.html)
+[Tanulócsoportok és virtuális iskolák](https://thebojda.github.io/my-gp-blog/archives/135402)
 
-[Az Android jövőjéről ](https://thebojda.github.io/my-gp-blog/posts/43.html)
+[Szegény ember HoloLens-e (Lenovo Mirage AR)](https://thebojda.github.io/my-gp-blog/archives/135394)
 
-[Földhajók (teljesen önfenntartó luxusépületek, gyakorlatilag szemétből)](https://thebojda.github.io/my-gp-blog/posts/58.html)
+[Egy rövid, de velős vitám Charles Strossal](https://thebojda.github.io/my-gp-blog/archives/135388)
 
-[Építsünk agyat (The Human Brain Project)](https://thebojda.github.io/my-gp-blog/posts/59.html)
+[Javascript async/await](https://thebojda.github.io/my-gp-blog/archives/135384)
 
-[Mai napi szösszenet ](https://thebojda.github.io/my-gp-blog/posts/60.html)
+[Az arányos választás rendszerről](https://thebojda.github.io/my-gp-blog/archives/135339)
 
-[Napi szösszenet ](https://thebojda.github.io/my-gp-blog/posts/61.html)
+[Az utolsó](https://thebojda.github.io/my-gp-blog/archives/135336)
 
-[Mai napi szösszenet ](https://thebojda.github.io/my-gp-blog/posts/62.html)
+[A dúsgazdag nincstelen](https://thebojda.github.io/my-gp-blog/archives/135334)
 
-[Mai napi szösszenet ](https://thebojda.github.io/my-gp-blog/posts/63.html)
+[Miért félünk a sötétben?](https://thebojda.github.io/my-gp-blog/archives/135330)
 
-[Mai napi szösszenet ](https://thebojda.github.io/my-gp-blog/posts/64.html)
+[Real life FarmVille](https://thebojda.github.io/my-gp-blog/archives/135328)
 
-[Mai napi szösszenet ](https://thebojda.github.io/my-gp-blog/posts/65.html)
+[Önszervező alapjövedelem hálózat](https://thebojda.github.io/my-gp-blog/archives/135326)
 
-[Mai napi szösszenet ](https://thebojda.github.io/my-gp-blog/posts/66.html)
+[Miért nem lehet blokkolni a torrent trackereket?!](https://thebojda.github.io/my-gp-blog/archives/135324)
 
-[Mai napi szösszenet ](https://thebojda.github.io/my-gp-blog/posts/67.html)
+[Fényvezérelt nanobotok](https://thebojda.github.io/my-gp-blog/archives/135322)
 
-[Mai napi szösszenet ](https://thebojda.github.io/my-gp-blog/posts/68.html)
+[Szoftver művek](https://thebojda.github.io/my-gp-blog/archives/135320)
 
-[Mai napi szösszenet ... (csak úgy, mert eszembe jutott)](https://thebojda.github.io/my-gp-blog/posts/69.html)
+[BitCoin bar (a legegyszerűbb BitCoin crowd founding megvalósítás)](https://thebojda.github.io/my-gp-blog/archives/135318)
 
-[Google Glass, a világ leghatékonyabb megfigyelő rendszere](https://thebojda.github.io/my-gp-blog/posts/16.html)
+[Symfony](https://thebojda.github.io/my-gp-blog/archives/135316)
 
-[SIMD műveletek Dart-ban (avagy miért érdemes Dart-ban programozni)](https://thebojda.github.io/my-gp-blog/posts/17.html)
+[Áramszünet](https://thebojda.github.io/my-gp-blog/archives/135312)
 
-[Tanuljunk programozni JavaScript alapokon](https://thebojda.github.io/my-gp-blog/posts/29.html)
+[Elképzeltem milyen lehetett az első BitCoin tranzakció](https://thebojda.github.io/my-gp-blog/archives/135310)
 
-[Új designt kapott a blogom](https://thebojda.github.io/my-gp-blog/posts/30.html)
+[ZeroNet (decentralizált Internet BitCoin és torrent alapon)](https://thebojda.github.io/my-gp-blog/archives/135299)
 
-[Cloud9](https://thebojda.github.io/my-gp-blog/posts/46.html)
+[Számoljanak a bojlerek és a radiátorok!](https://thebojda.github.io/my-gp-blog/archives/135296)
 
-[Először sikerült összekötni két patkány agyát](https://thebojda.github.io/my-gp-blog/posts/47.html)
+[WordPress GitHub Sync](https://thebojda.github.io/my-gp-blog/archives/135294)
 
-[Gondolat olvasás és vizualizáció MRI alapján](https://thebojda.github.io/my-gp-blog/posts/48.html)
+[WP Super Cache](https://thebojda.github.io/my-gp-blog/archives/135292)
 
-[FON](https://thebojda.github.io/my-gp-blog/posts/968.html)
+[Az agy mint önálló univerzum (és a tudat mint ennek vetülete)](https://thebojda.github.io/my-gp-blog/archives/135290)
 
-[Leheletteszttel diagnosztizálható a rák](https://thebojda.github.io/my-gp-blog/posts/1613.html)
+[Nerve](https://thebojda.github.io/my-gp-blog/archives/135288)
 
-[Cloud 9 használata GitHubbal (1.)](https://thebojda.github.io/my-gp-blog/posts/1911.html)
+[Jancsi és Juliska](https://thebojda.github.io/my-gp-blog/archives/135284)
 
-[Lebegő szigetek](https://thebojda.github.io/my-gp-blog/posts/2172.html)
+[Az élet falun](https://thebojda.github.io/my-gp-blog/archives/135282)
 
-[Cloud 9 használata GitHubbal (2.)](https://thebojda.github.io/my-gp-blog/posts/2262.html)
+[SSL tanúsítvány ingyen (Let's encrypt)](https://thebojda.github.io/my-gp-blog/archives/135279)
 
-[Nem hiszek abban, hogy bárkit is negatív megerősítéssel ösztönözni lehetne...](https://thebojda.github.io/my-gp-blog/posts/3022.html)
+[Linux web- és mail szerver konfigurálása](https://thebojda.github.io/my-gp-blog/archives/135275)
 
-[Google Chrome Developer Tools](https://thebojda.github.io/my-gp-blog/posts/3023.html)
+[Platón párt](https://thebojda.github.io/my-gp-blog/archives/135273)
 
-[Cloud 9 használata GitHubbal (3.)](https://thebojda.github.io/my-gp-blog/posts/3024.html)
+[Pure Genius](https://thebojda.github.io/my-gp-blog/archives/135271)
 
-[Cloud 9 használata GitHubbal (4.)](https://thebojda.github.io/my-gp-blog/posts/3319.html)
+[Westworld](https://thebojda.github.io/my-gp-blog/archives/135269)
 
-[Lokális fejlesztés XAMPP használatával](https://thebojda.github.io/my-gp-blog/posts/3455.html)
+[Az én MÁTRIX-om](https://thebojda.github.io/my-gp-blog/archives/135267)
 
-[WordPress (nagyon)gyorstalpaló (telepítés)](https://thebojda.github.io/my-gp-blog/posts/3931.html)
+[Duplicity backup](https://thebojda.github.io/my-gp-blog/archives/135265)
 
-[WordPress (nagyon)gyorstalpaló (sablonkezelés)](https://thebojda.github.io/my-gp-blog/posts/4106.html)
+[Nanorobotok gyémántból](https://thebojda.github.io/my-gp-blog/archives/135263)
 
-[Cloud 9 használata GitHubbal (1.)](https://thebojda.github.io/my-gp-blog/posts/27646.html)
+[Magic Leap Concept Explored](https://thebojda.github.io/my-gp-blog/archives/135261)
 
-[PHP naplózás Chrome JavaScript konzolra](https://thebojda.github.io/my-gp-blog/posts/4574.html)
+[Elkészült Mark Zuckerberg MI-je](https://thebojda.github.io/my-gp-blog/archives/135259)
 
-[WordPress (nagyon)gyorstalpaló (bővítmények fejlesztése)](https://thebojda.github.io/my-gp-blog/posts/5129.html)
+[Daydream + Tango, jöhet az olcsó AR](https://thebojda.github.io/my-gp-blog/archives/135257)
 
-[Ez nem annyira alap JavaScript, de ha valaki rendelkezik alapvető HTML és JavaScript...](https://thebojda.github.io/my-gp-blog/posts/7105.html)
+[Az MI mint oprendszer](https://thebojda.github.io/my-gp-blog/archives/135255)
 
-[AngularJS (1. alapok)](https://thebojda.github.io/my-gp-blog/posts/7106.html)
+[Mikor jönnek az okosszemüvegek?!](https://thebojda.github.io/my-gp-blog/archives/135253)
 
-[Készítettem egy ilyen kis PHP + AngularJS mintát](https://thebojda.github.io/my-gp-blog/posts/7585.html)
+[Game of Life](https://thebojda.github.io/my-gp-blog/archives/135251)
 
-[PHP messageboard](https://thebojda.github.io/my-gp-blog/posts/7586.html)
+[Genius By Stephen Hawking](https://thebojda.github.io/my-gp-blog/archives/135249)
 
-[jQuery alapok](https://thebojda.github.io/my-gp-blog/posts/8131.html)
+[Az emberi agy megértéséről](https://thebojda.github.io/my-gp-blog/archives/135247)
 
-[Az ember tragédiája mint Cloud Atlas](https://thebojda.github.io/my-gp-blog/posts/8174.html)
+[A Microsoft előre menekül az AR felé](https://thebojda.github.io/my-gp-blog/archives/135245)
 
-[Egy nagyon jó előadás Dr](https://thebojda.github.io/my-gp-blog/posts/16437.html)
+[Second Life was just the beginning](https://thebojda.github.io/my-gp-blog/archives/135214)
 
-[Portolják az Unreal Engine-t JavaScript-re](https://thebojda.github.io/my-gp-blog/posts/18102.html)
+[Holodeck az űrben](https://thebojda.github.io/my-gp-blog/archives/135212)
 
-[Xtend](https://thebojda.github.io/my-gp-blog/posts/25350.html)
+[A dolgok viszonylagosságáról](https://thebojda.github.io/my-gp-blog/archives/135210)
 
-[Xtend JSON](https://thebojda.github.io/my-gp-blog/posts/27623.html)
+[Milyenek lesznek a filmek 10 év múlva?!](https://thebojda.github.io/my-gp-blog/archives/135208)
 
-[A Prezi mint munkahely](https://thebojda.github.io/my-gp-blog/posts/27624.html)
+[Intel Project Alloy Merged Reality](https://thebojda.github.io/my-gp-blog/archives/135205)
 
-[Írtam DalvikVM-et Java-ban. :)](https://thebojda.github.io/my-gp-blog/posts/27625.html)
+[Útban a digitális emlékezet felé](https://thebojda.github.io/my-gp-blog/archives/135203)
 
-[myBatis](https://thebojda.github.io/my-gp-blog/posts/32846.html)
+[Gigafactory (a gép, amely a gépet építi)](https://thebojda.github.io/my-gp-blog/archives/135201)
 
-[Tabris](https://thebojda.github.io/my-gp-blog/posts/39265.html)
+[Milyen lesz a Google Glass utódja? (a MagicLeap)](https://thebojda.github.io/my-gp-blog/archives/135199)
 
-[Felvásárolta a Parse-t a Facebook](https://thebojda.github.io/my-gp-blog/posts/42321.html)
+[Drónok és VR](https://thebojda.github.io/my-gp-blog/archives/135197)
 
-[A gwtproject.org a GWT új, közösségi oldala](https://thebojda.github.io/my-gp-blog/posts/45788.html)
+[Jill Bolte Taylor: My stroke of insight](https://thebojda.github.io/my-gp-blog/archives/135195)
 
-[Zebra (HTML5 Canvas Rich UI JavaScript Library)](https://thebojda.github.io/my-gp-blog/posts/45789.html)
+[Meta Mesterséges Intelligencia (avagy egy lehetséges út az emberi szintű MI ...](https://thebojda.github.io/my-gp-blog/archives/135193)
 
-[Önellátó robotgazdaságok](https://thebojda.github.io/my-gp-blog/posts/64285.html)
+[A Web, mint a mobil appok jövője](https://thebojda.github.io/my-gp-blog/archives/135192)
 
-[Chromium Embedded](https://thebojda.github.io/my-gp-blog/posts/71143.html)
+[Project Tango és a VR jövője](https://thebojda.github.io/my-gp-blog/archives/135189)
 
-[Mikor az ember már úgy érzi, hogy érti a DNS (és az élet) működését, kiderül,...](https://thebojda.github.io/my-gp-blog/posts/91251.html)
+[Miért olyan érdekes a fekete lyukak és az információs paradoxon esete?!](https://thebojda.github.io/my-gp-blog/archives/135187)
 
-[Érdekes kezdeményezés](https://thebojda.github.io/my-gp-blog/posts/93789.html)
+[Valóságba ágyazott virtuális valóság](https://thebojda.github.io/my-gp-blog/archives/135185)
 
-[Tök érdekes figyelni a gyereket, ahogy fejlődik a szókincse](https://thebojda.github.io/my-gp-blog/posts/99509.html)
+[Lucid Dream Machine](https://thebojda.github.io/my-gp-blog/archives/135183)
 
-[A "Mi az élet értelme?" kérdésnek önmagában azért nincs értelme,...](https://thebojda.github.io/my-gp-blog/posts/103429.html)
+[A moduláris gondolkodás, a természet, és a mesterséges intelligencia](https://thebojda.github.io/my-gp-blog/archives/135181)
 
-[Brackets](https://thebojda.github.io/my-gp-blog/posts/106446.html)
+[Publikus béta állapotba lépett a HighFidelity](https://thebojda.github.io/my-gp-blog/archives/135179)
 
-[Kipróbáltam, hogy mennyire nehéz a Google AppEngine-t használni](https://thebojda.github.io/my-gp-blog/posts/110620.html)
+[Google+ to RSS](https://thebojda.github.io/my-gp-blog/archives/135177)
 
-[Az AppScale segítségével Google AppEngine alkalmazásokat futtathatunk bármilyen...](https://thebojda.github.io/my-gp-blog/posts/111838.html)
+[Távirányított nanotechnológia forradalmasíthatná az orvostudományt, és talán...](https://thebojda.github.io/my-gp-blog/archives/135175)
 
-[Vannak itt G+-on többen is, akik nagyon színvonalas tech oldalakat, blogokat futtatnak....](https://thebojda.github.io/my-gp-blog/posts/111839.html)
+[Xen 4.4 Debian Jessie howto](https://thebojda.github.io/my-gp-blog/archives/135173)
 
-[Érdekes írás](https://thebojda.github.io/my-gp-blog/posts/114178.html)
+[Az új Microsoft](https://thebojda.github.io/my-gp-blog/archives/135171)
 
-[A +Dart elterjedésére szerintem nagyon jótékonyan hatna, ha összedobnának...](https://thebojda.github.io/my-gp-blog/posts/116923.html)
+[Szép új AR világ](https://thebojda.github.io/my-gp-blog/archives/135169)
 
-[Kéne egy tudomány/tech magazin, minek az a lényege, hogy az adott nap összes...](https://thebojda.github.io/my-gp-blog/posts/117551.html)
+[Google Cloud Machine Learning](https://thebojda.github.io/my-gp-blog/archives/135167)
 
-[A SZTAKI-s jelnyelv fordító eszköz kapcsán jutott eszembe egy másik eszköz,...](https://thebojda.github.io/my-gp-blog/posts/117552.html)
+[Bioszámítógépek vs. nanotechnológia](https://thebojda.github.io/my-gp-blog/archives/135165)
 
-[Bloggolj!](https://thebojda.github.io/my-gp-blog/posts/117553.html)
+[Önjáró drónok, mint a közlekedés jövője](https://thebojda.github.io/my-gp-blog/archives/135163)
 
-[Life Blogging](https://thebojda.github.io/my-gp-blog/posts/117554.html)
+[A Microsoft felvásárolja a Xamarint](https://thebojda.github.io/my-gp-blog/archives/135151)
 
-[Közösségi finanszírozás vs. adományozás](https://thebojda.github.io/my-gp-blog/posts/134779.html)
+[Hogyan olvadunk össze a technológiánkkal?!](https://thebojda.github.io/my-gp-blog/archives/135149)
 
-[Azon gondolkodtam, hogy lehetne minél jobb távkonferencia élményt adni](https://thebojda.github.io/my-gp-blog/posts/134780.html)
+[Neurális chipek és az agy-gép interfész](https://thebojda.github.io/my-gp-blog/archives/135147)
 
-[Ötletes cucc ](https://thebojda.github.io/my-gp-blog/posts/134783.html)
+[Alexa Skills & Alexa Voice](https://thebojda.github.io/my-gp-blog/archives/135145)
 
-[Lendkerekes energia tároló rendszer](https://thebojda.github.io/my-gp-blog/posts/134785.html)
+[AWS lambda](https://thebojda.github.io/my-gp-blog/archives/135143)
 
-[5000 fényév hosszú gázsugár](https://thebojda.github.io/my-gp-blog/posts/134787.html)
+[Nvidia Drive PX 2](https://thebojda.github.io/my-gp-blog/archives/135141)
 
-[Egy vízió a jövőről 2050-re](https://thebojda.github.io/my-gp-blog/posts/134789.html)
+[Word2Vec](https://thebojda.github.io/my-gp-blog/archives/135139)
 
-[Ezek szerint a Google-nek is lesz okos órája](https://thebojda.github.io/my-gp-blog/posts/134791.html)
+[Vajon hányan férhetünk el egy emberi agyban?](https://thebojda.github.io/my-gp-blog/archives/135137)
 
-[Ez akkor lesz majd igazán jó, ha mobilra is megjelenik (a cikk szerint a nem közeli...](https://thebojda.github.io/my-gp-blog/posts/134793.html)
+[TensorFlow (röviden a Google nyílt forrású gépi tanulás rendszeréről)](https://thebojda.github.io/my-gp-blog/archives/135133)
 
-[Egy ilyesmit el tudnék képzelni a jövőben monitor helyett mobiltelefonhoz](https://thebojda.github.io/my-gp-blog/posts/134794.html)
+[Miért jobb, ha inkább a matematikában bízunk a józan eszünk helyett?!](https://thebojda.github.io/my-gp-blog/archives/135113)
 
-[Sokáig ment a találgatás, hogy a Google-nek lesz-e saját oprendszere](https://thebojda.github.io/my-gp-blog/posts/134797.html)
+[Idegenek és szimulált valóság](https://thebojda.github.io/my-gp-blog/archives/135110)
 
-[Ez tipikusan az az eset, mikor a saját sémáinkat próbáljuk ráhúzni valamire....](https://thebojda.github.io/my-gp-blog/posts/134800.html)
+[Azon gondolkodtam, hogy lehetne egy kisgyereknek elmagyarázni a rádióhullámok...](https://thebojda.github.io/my-gp-blog/archives/135109)
 
-[Ha ezt így meg tudják csinálni, akkor az nagyon durva](https://thebojda.github.io/my-gp-blog/posts/134806.html)
+[Vezérhullám a kvantummechanikában (avagy hogyan gondolkodnak a fizikusok)](https://thebojda.github.io/my-gp-blog/archives/135108)
 
-[A cím kicsit szenzációhajhász szerintem, mert ezzel még nagyon távol vagyunk...](https://thebojda.github.io/my-gp-blog/posts/134809.html)
+[Alphabet](https://thebojda.github.io/my-gp-blog/archives/135106)
 
-[Life Blogging](https://thebojda.github.io/my-gp-blog/posts/134811.html)
+[Az én Google+-om](https://thebojda.github.io/my-gp-blog/archives/135105)
 
-[Szubjektív idő](https://thebojda.github.io/my-gp-blog/posts/134813.html)
+[Univerzális nyelv](https://thebojda.github.io/my-gp-blog/archives/135102)
 
-[Jönnek a virtuális TV-k?](https://thebojda.github.io/my-gp-blog/posts/134815.html)
+[Bízzuk az MI-re!](https://thebojda.github.io/my-gp-blog/archives/135100)
 
-[Nézegettem kicsit napelem rendszereket](https://thebojda.github.io/my-gp-blog/posts/134817.html)
+[Vallás vs. technológiai szingularitás](https://thebojda.github.io/my-gp-blog/archives/135097)
 
-[Nanosebészet](https://thebojda.github.io/my-gp-blog/posts/134819.html)
+[A mély neurális hálók átverhetőségéről](https://thebojda.github.io/my-gp-blog/archives/135095)
 
-[Állami P2P szolgáltatás tár](https://thebojda.github.io/my-gp-blog/posts/134821.html)
+[Gondolkodik-e a Google mesterséges intelligenciája?! Avagy a "dobozba zárt...](https://thebojda.github.io/my-gp-blog/archives/135094)
 
-[Project Tango](https://thebojda.github.io/my-gp-blog/posts/134823.html)
+[Irányított álom és virtuális valóság](https://thebojda.github.io/my-gp-blog/archives/135092)
 
-[Energia tárolás hidrogénnel](https://thebojda.github.io/my-gp-blog/posts/134827.html)
+[Tinédzser tervezte az olcsó, agyhullámokkal irányítható robotkart](https://thebojda.github.io/my-gp-blog/archives/135091)
 
-[Tagnap láttunk egy fészkét építő gólyát](https://thebojda.github.io/my-gp-blog/posts/134828.html)
+[Jupiter felemelkedése (Jupiter Ascending)](https://thebojda.github.io/my-gp-blog/archives/135089)
 
-[Natív vs. web appok mobilon](https://thebojda.github.io/my-gp-blog/posts/134830.html)
+[VR és a mozi](https://thebojda.github.io/my-gp-blog/archives/135084)
 
-[Mesterséges izom](https://thebojda.github.io/my-gp-blog/posts/134869.html)
+[HighFidelity Worklist](https://thebojda.github.io/my-gp-blog/archives/135082)
 
-[Örök élet](https://thebojda.github.io/my-gp-blog/posts/134881.html)
+[HoloLens](https://thebojda.github.io/my-gp-blog/archives/135081)
 
-[A por](https://thebojda.github.io/my-gp-blog/posts/134879.html)
+[High Fidelity](https://thebojda.github.io/my-gp-blog/archives/135079)
 
-[WebKit motor js-ben Emscripten-el](https://thebojda.github.io/my-gp-blog/posts/134880.html)
+[Útban a digitális emlékek felé](https://thebojda.github.io/my-gp-blog/archives/135077)
 
-[Fénysebesség](https://thebojda.github.io/my-gp-blog/posts/134891.html)
+[A memrisztor, mint agysejt](https://thebojda.github.io/my-gp-blog/archives/135075)
 
-[Android emulátor gyorsítása HAXM-al](https://thebojda.github.io/my-gp-blog/posts/134901.html)
+[Önvezető autók vs. hyperloop](https://thebojda.github.io/my-gp-blog/archives/135073)
 
-[Univerzális fordítás mesterséges nyelvvel](https://thebojda.github.io/my-gp-blog/posts/134908.html)
+[Szubvokális hangfelismerés - az ideális beviteli eszköz okosszemüvegekhez](https://thebojda.github.io/my-gp-blog/archives/135071)
 
-[Virtuális valóság forradalom](https://thebojda.github.io/my-gp-blog/posts/134915.html)
+[Ubuntu véglegesítve](https://thebojda.github.io/my-gp-blog/archives/135069)
 
-[A robotika forradalma](https://thebojda.github.io/my-gp-blog/posts/134923.html)
+[Open Source szoftver után Open source minden](https://thebojda.github.io/my-gp-blog/archives/135067)
 
-[Neutrínók és örökmozgók](https://thebojda.github.io/my-gp-blog/posts/134930.html)
+[Csillagok között (Interstellar)](https://thebojda.github.io/my-gp-blog/archives/135066)
 
-[Ilyen lehet a sebészet jövője ?!](https://thebojda.github.io/my-gp-blog/posts/134935.html)
+[Prezi desktop](https://thebojda.github.io/my-gp-blog/archives/135009)
 
-[Küszöbön a kiterjesztett valóság](https://thebojda.github.io/my-gp-blog/posts/134937.html)
+[Hogyan változtatják meg világunkat az önvezető elektromos autók?!](https://thebojda.github.io/my-gp-blog/archives/135008)
 
-[A 3D nyomtatás lehet az új LEGO](https://thebojda.github.io/my-gp-blog/posts/134939.html)
+[Teremtés vs. evolúció](https://thebojda.github.io/my-gp-blog/archives/135007)
 
-[Nyílt forrású gazdaság (Open Source Economy)](https://thebojda.github.io/my-gp-blog/posts/134941.html)
+[Google Glass és a neo-neocortex](https://thebojda.github.io/my-gp-blog/archives/135004)
 
-[3D nyomtatás](https://thebojda.github.io/my-gp-blog/posts/134942.html)
+[Okos óra helyett telefon tok](https://thebojda.github.io/my-gp-blog/archives/135002)
 
-[Milyen lehet mesterséges intelligenciának lenni ?!](https://thebojda.github.io/my-gp-blog/posts/134944.html)
+[Szükség van-e a tudatra?](https://thebojda.github.io/my-gp-blog/archives/135000)
 
-[Mi mindenre lehet jó egy hangfelismerő/szintetizáló rendszer ?!](https://thebojda.github.io/my-gp-blog/posts/134947.html)
+[Android x86 + VirtualBox emulátor helyett (+felbontás beállítása)](https://thebojda.github.io/my-gp-blog/archives/134998)
 
-[Hogyan segíthet a kvantum számítástechnika a mesterséges intelligenciának ...](https://thebojda.github.io/my-gp-blog/posts/134949.html)
+[Vajon hány TB lenne életünk filmje?](https://thebojda.github.io/my-gp-blog/archives/134997)
 
-[Az agy feltérképezése](https://thebojda.github.io/my-gp-blog/posts/134950.html)
+[Közösségi finanszírozás a tudományban](https://thebojda.github.io/my-gp-blog/archives/134994)
 
-[Hogy jelezték előre a Google-nél a VB eredményét?](https://thebojda.github.io/my-gp-blog/posts/134953.html)
+[CMS rendszer statikus oldalakkal](https://thebojda.github.io/my-gp-blog/archives/134991)
 
-[Hogyan olvadunk össze a technológiánkkal ?!](https://thebojda.github.io/my-gp-blog/posts/134954.html)
+[Open Source telefon](https://thebojda.github.io/my-gp-blog/archives/134989)
 
-[Hamarosan teljes kontrollunk lehet az agy felett](https://thebojda.github.io/my-gp-blog/posts/134957.html)
+[Mennyibe kerül az örök élet? (reménye)](https://thebojda.github.io/my-gp-blog/archives/134988)
 
-[Chrome Apps for Mobile](https://thebojda.github.io/my-gp-blog/posts/134967.html)
+[Digitális emlékezet](https://thebojda.github.io/my-gp-blog/archives/134986)
 
-[Elkészült a Samsung VR headsetje](https://thebojda.github.io/my-gp-blog/posts/134968.html)
+[AWS Elastic Beanstalk](https://thebojda.github.io/my-gp-blog/archives/134984)
 
-[P2P gazdaság](https://thebojda.github.io/my-gp-blog/posts/134969.html)
+[Gondolatolvasás és virtuális valóság](https://thebojda.github.io/my-gp-blog/archives/134983)
 
-[Egy ismertető az IBM új neuron mintájú processzoráról](https://thebojda.github.io/my-gp-blog/posts/134970.html)
+[Bizonyítékot találtak a halál utáni életre?](https://thebojda.github.io/my-gp-blog/archives/134980)
 
-[JGroups](https://thebojda.github.io/my-gp-blog/posts/134973.html)
+[A Switch.co a Google AppEngine-t választotta szolgáltatása alapjául ](https://thebojda.github.io/my-gp-blog/archives/134978)
 
-[A Switch.co a Google AppEngine-t választotta szolgáltatása alapjául ](https://thebojda.github.io/my-gp-blog/posts/134978.html)
+[JGroups](https://thebojda.github.io/my-gp-blog/archives/134973)
 
-[Bizonyítékot találtak a halál utáni életre?](https://thebojda.github.io/my-gp-blog/posts/134980.html)
+[Egy ismertető az IBM új neuron mintájú processzoráról](https://thebojda.github.io/my-gp-blog/archives/134970)
 
-[Gondolatolvasás és virtuális valóság](https://thebojda.github.io/my-gp-blog/posts/134983.html)
+[P2P gazdaság](https://thebojda.github.io/my-gp-blog/archives/134969)
 
-[AWS Elastic Beanstalk](https://thebojda.github.io/my-gp-blog/posts/134984.html)
+[Elkészült a Samsung VR headsetje](https://thebojda.github.io/my-gp-blog/archives/134968)
 
-[Digitális emlékezet](https://thebojda.github.io/my-gp-blog/posts/134986.html)
+[Chrome Apps for Mobile](https://thebojda.github.io/my-gp-blog/archives/134967)
 
-[Mennyibe kerül az örök élet? (reménye)](https://thebojda.github.io/my-gp-blog/posts/134988.html)
+[Hamarosan teljes kontrollunk lehet az agy felett](https://thebojda.github.io/my-gp-blog/archives/134957)
 
-[Open Source telefon](https://thebojda.github.io/my-gp-blog/posts/134989.html)
+[Hogyan olvadunk össze a technológiánkkal ?!](https://thebojda.github.io/my-gp-blog/archives/134954)
 
-[CMS rendszer statikus oldalakkal](https://thebojda.github.io/my-gp-blog/posts/134991.html)
+[Hogy jelezték előre a Google-nél a VB eredményét?](https://thebojda.github.io/my-gp-blog/archives/134953)
 
-[Közösségi finanszírozás a tudományban](https://thebojda.github.io/my-gp-blog/posts/134994.html)
+[Az agy feltérképezése](https://thebojda.github.io/my-gp-blog/archives/134950)
 
-[Vajon hány TB lenne életünk filmje?](https://thebojda.github.io/my-gp-blog/posts/134997.html)
+[Hogyan segíthet a kvantum számítástechnika a mesterséges intelligenciának ...](https://thebojda.github.io/my-gp-blog/archives/134949)
 
-[Android x86 + VirtualBox emulátor helyett (+felbontás beállítása)](https://thebojda.github.io/my-gp-blog/posts/134998.html)
+[Mi mindenre lehet jó egy hangfelismerő/szintetizáló rendszer ?!](https://thebojda.github.io/my-gp-blog/archives/134947)
 
-[Szükség van-e a tudatra?](https://thebojda.github.io/my-gp-blog/posts/135000.html)
+[Milyen lehet mesterséges intelligenciának lenni ?!](https://thebojda.github.io/my-gp-blog/archives/134944)
 
-[Okos óra helyett telefon tok](https://thebojda.github.io/my-gp-blog/posts/135002.html)
+[3D nyomtatás](https://thebojda.github.io/my-gp-blog/archives/134942)
 
-[Google Glass és a neo-neocortex](https://thebojda.github.io/my-gp-blog/posts/135004.html)
+[Nyílt forrású gazdaság (Open Source Economy)](https://thebojda.github.io/my-gp-blog/archives/134941)
 
-[Teremtés vs. evolúció](https://thebojda.github.io/my-gp-blog/posts/135007.html)
+[A 3D nyomtatás lehet az új LEGO](https://thebojda.github.io/my-gp-blog/archives/134939)
 
-[Hogyan változtatják meg világunkat az önvezető elektromos autók?!](https://thebojda.github.io/my-gp-blog/posts/135008.html)
+[Küszöbön a kiterjesztett valóság](https://thebojda.github.io/my-gp-blog/archives/134937)
 
-[Prezi desktop](https://thebojda.github.io/my-gp-blog/posts/135009.html)
+[Ilyen lehet a sebészet jövője ?!](https://thebojda.github.io/my-gp-blog/archives/134935)
 
-[Csillagok között (Interstellar)](https://thebojda.github.io/my-gp-blog/posts/135066.html)
+[Neutrínók és örökmozgók](https://thebojda.github.io/my-gp-blog/archives/134930)
 
-[Open Source szoftver után Open source minden](https://thebojda.github.io/my-gp-blog/posts/135067.html)
+[A robotika forradalma](https://thebojda.github.io/my-gp-blog/archives/134923)
 
-[Ubuntu véglegesítve](https://thebojda.github.io/my-gp-blog/posts/135069.html)
+[Virtuális valóság forradalom](https://thebojda.github.io/my-gp-blog/archives/134915)
 
-[Szubvokális hangfelismerés - az ideális beviteli eszköz okosszemüvegekhez](https://thebojda.github.io/my-gp-blog/posts/135071.html)
+[Univerzális fordítás mesterséges nyelvvel](https://thebojda.github.io/my-gp-blog/archives/134908)
 
-[Önvezető autók vs. hyperloop](https://thebojda.github.io/my-gp-blog/posts/135073.html)
+[Android emulátor gyorsítása HAXM-al](https://thebojda.github.io/my-gp-blog/archives/134901)
 
-[A memrisztor, mint agysejt](https://thebojda.github.io/my-gp-blog/posts/135075.html)
+[Fénysebesség](https://thebojda.github.io/my-gp-blog/archives/134891)
 
-[Útban a digitális emlékek felé](https://thebojda.github.io/my-gp-blog/posts/135077.html)
+[Örök élet](https://thebojda.github.io/my-gp-blog/archives/134881)
 
-[High Fidelity](https://thebojda.github.io/my-gp-blog/posts/135079.html)
+[WebKit motor js-ben Emscripten-el](https://thebojda.github.io/my-gp-blog/archives/134880)
 
-[HoloLens](https://thebojda.github.io/my-gp-blog/posts/135081.html)
+[A por](https://thebojda.github.io/my-gp-blog/archives/134879)
 
-[HighFidelity Worklist](https://thebojda.github.io/my-gp-blog/posts/135082.html)
+[Mesterséges izom](https://thebojda.github.io/my-gp-blog/archives/134869)
 
-[VR és a mozi](https://thebojda.github.io/my-gp-blog/posts/135084.html)
+[Natív vs. web appok mobilon](https://thebojda.github.io/my-gp-blog/archives/134830)
 
-[Jupiter felemelkedése (Jupiter Ascending)](https://thebojda.github.io/my-gp-blog/posts/135089.html)
+[Tagnap láttunk egy fészkét építő gólyát](https://thebojda.github.io/my-gp-blog/archives/134828)
 
-[Tinédzser tervezte az olcsó, agyhullámokkal irányítható robotkart](https://thebojda.github.io/my-gp-blog/posts/135091.html)
+[Energia tárolás hidrogénnel](https://thebojda.github.io/my-gp-blog/archives/134827)
 
-[Irányított álom és virtuális valóság](https://thebojda.github.io/my-gp-blog/posts/135092.html)
+[Project Tango](https://thebojda.github.io/my-gp-blog/archives/134823)
 
-[Gondolkodik-e a Google mesterséges intelligenciája?! Avagy a "dobozba zárt...](https://thebojda.github.io/my-gp-blog/posts/135094.html)
+[Állami P2P szolgáltatás tár](https://thebojda.github.io/my-gp-blog/archives/134821)
 
-[A mély neurális hálók átverhetőségéről](https://thebojda.github.io/my-gp-blog/posts/135095.html)
+[Nanosebészet](https://thebojda.github.io/my-gp-blog/archives/134819)
 
-[Vallás vs. technológiai szingularitás](https://thebojda.github.io/my-gp-blog/posts/135097.html)
+[Nézegettem kicsit napelem rendszereket](https://thebojda.github.io/my-gp-blog/archives/134817)
 
-[Bízzuk az MI-re!](https://thebojda.github.io/my-gp-blog/posts/135100.html)
+[Jönnek a virtuális TV-k?](https://thebojda.github.io/my-gp-blog/archives/134815)
 
-[Univerzális nyelv](https://thebojda.github.io/my-gp-blog/posts/135102.html)
+[Szubjektív idő](https://thebojda.github.io/my-gp-blog/archives/134813)
 
-[Az én Google+-om](https://thebojda.github.io/my-gp-blog/posts/135105.html)
+[Life Blogging](https://thebojda.github.io/my-gp-blog/archives/134811)
 
-[Alphabet](https://thebojda.github.io/my-gp-blog/posts/135106.html)
+[A cím kicsit szenzációhajhász szerintem, mert ezzel még nagyon távol vagyunk...](https://thebojda.github.io/my-gp-blog/archives/134809)
 
-[Vezérhullám a kvantummechanikában (avagy hogyan gondolkodnak a fizikusok)](https://thebojda.github.io/my-gp-blog/posts/135108.html)
+[Ha ezt így meg tudják csinálni, akkor az nagyon durva](https://thebojda.github.io/my-gp-blog/archives/134806)
 
-[Azon gondolkodtam, hogy lehetne egy kisgyereknek elmagyarázni a rádióhullámok...](https://thebojda.github.io/my-gp-blog/posts/135109.html)
+[Ez tipikusan az az eset, mikor a saját sémáinkat próbáljuk ráhúzni valamire....](https://thebojda.github.io/my-gp-blog/archives/134800)
 
-[Idegenek és szimulált valóság](https://thebojda.github.io/my-gp-blog/posts/135110.html)
+[Sokáig ment a találgatás, hogy a Google-nek lesz-e saját oprendszere](https://thebojda.github.io/my-gp-blog/archives/134797)
 
-[Miért jobb, ha inkább a matematikában bízunk a józan eszünk helyett?!](https://thebojda.github.io/my-gp-blog/posts/135113.html)
+[Egy ilyesmit el tudnék képzelni a jövőben monitor helyett mobiltelefonhoz](https://thebojda.github.io/my-gp-blog/archives/134794)
 
-[TensorFlow (röviden a Google nyílt forrású gépi tanulás rendszeréről)](https://thebojda.github.io/my-gp-blog/posts/135133.html)
+[Ez akkor lesz majd igazán jó, ha mobilra is megjelenik (a cikk szerint a nem közeli...](https://thebojda.github.io/my-gp-blog/archives/134793)
 
-[Vajon hányan férhetünk el egy emberi agyban?](https://thebojda.github.io/my-gp-blog/posts/135137.html)
+[Ezek szerint a Google-nek is lesz okos órája](https://thebojda.github.io/my-gp-blog/archives/134791)
 
-[Word2Vec](https://thebojda.github.io/my-gp-blog/posts/135139.html)
+[Egy vízió a jövőről 2050-re](https://thebojda.github.io/my-gp-blog/archives/134789)
 
-[Nvidia Drive PX 2](https://thebojda.github.io/my-gp-blog/posts/135141.html)
+[5000 fényév hosszú gázsugár](https://thebojda.github.io/my-gp-blog/archives/134787)
 
-[AWS lambda](https://thebojda.github.io/my-gp-blog/posts/135143.html)
+[Lendkerekes energia tároló rendszer](https://thebojda.github.io/my-gp-blog/archives/134785)
 
-[Alexa Skills & Alexa Voice](https://thebojda.github.io/my-gp-blog/posts/135145.html)
+[Ötletes cucc ](https://thebojda.github.io/my-gp-blog/archives/134783)
 
-[Neurális chipek és az agy-gép interfész](https://thebojda.github.io/my-gp-blog/posts/135147.html)
+[Azon gondolkodtam, hogy lehetne minél jobb távkonferencia élményt adni](https://thebojda.github.io/my-gp-blog/archives/134780)
 
-[Hogyan olvadunk össze a technológiánkkal?!](https://thebojda.github.io/my-gp-blog/posts/135149.html)
+[Közösségi finanszírozás vs. adományozás](https://thebojda.github.io/my-gp-blog/archives/134779)
 
-[A Microsoft felvásárolja a Xamarint](https://thebojda.github.io/my-gp-blog/posts/135151.html)
+[Life Blogging](https://thebojda.github.io/my-gp-blog/archives/117554)
 
-[Önjáró drónok, mint a közlekedés jövője](https://thebojda.github.io/my-gp-blog/posts/135163.html)
+[Bloggolj!](https://thebojda.github.io/my-gp-blog/archives/117553)
 
-[Bioszámítógépek vs. nanotechnológia](https://thebojda.github.io/my-gp-blog/posts/135165.html)
+[A SZTAKI-s jelnyelv fordító eszköz kapcsán jutott eszembe egy másik eszköz,...](https://thebojda.github.io/my-gp-blog/archives/117552)
 
-[Google Cloud Machine Learning](https://thebojda.github.io/my-gp-blog/posts/135167.html)
+[Kéne egy tudomány/tech magazin, minek az a lényege, hogy az adott nap összes...](https://thebojda.github.io/my-gp-blog/archives/117551)
 
-[Szép új AR világ](https://thebojda.github.io/my-gp-blog/posts/135169.html)
+[A +Dart elterjedésére szerintem nagyon jótékonyan hatna, ha összedobnának...](https://thebojda.github.io/my-gp-blog/archives/116923)
 
-[Az új Microsoft](https://thebojda.github.io/my-gp-blog/posts/135171.html)
+[Érdekes írás](https://thebojda.github.io/my-gp-blog/archives/114178)
 
-[Xen 4.4 Debian Jessie howto](https://thebojda.github.io/my-gp-blog/posts/135173.html)
+[Vannak itt G+-on többen is, akik nagyon színvonalas tech oldalakat, blogokat futtatnak....](https://thebojda.github.io/my-gp-blog/archives/111839)
 
-[Távirányított nanotechnológia forradalmasíthatná az orvostudományt, és talán...](https://thebojda.github.io/my-gp-blog/posts/135175.html)
+[Az AppScale segítségével Google AppEngine alkalmazásokat futtathatunk bármilyen...](https://thebojda.github.io/my-gp-blog/archives/111838)
 
-[Google+ to RSS](https://thebojda.github.io/my-gp-blog/posts/135177.html)
+[Kipróbáltam, hogy mennyire nehéz a Google AppEngine-t használni](https://thebojda.github.io/my-gp-blog/archives/110620)
 
-[Publikus béta állapotba lépett a HighFidelity](https://thebojda.github.io/my-gp-blog/posts/135179.html)
+[Brackets](https://thebojda.github.io/my-gp-blog/archives/106446)
 
-[A moduláris gondolkodás, a természet, és a mesterséges intelligencia](https://thebojda.github.io/my-gp-blog/posts/135181.html)
+[A "Mi az élet értelme?" kérdésnek önmagában azért nincs értelme,...](https://thebojda.github.io/my-gp-blog/archives/103429)
 
-[Lucid Dream Machine](https://thebojda.github.io/my-gp-blog/posts/135183.html)
+[Tök érdekes figyelni a gyereket, ahogy fejlődik a szókincse](https://thebojda.github.io/my-gp-blog/archives/99509)
 
-[Valóságba ágyazott virtuális valóság](https://thebojda.github.io/my-gp-blog/posts/135185.html)
+[Érdekes kezdeményezés](https://thebojda.github.io/my-gp-blog/archives/93789)
 
-[Miért olyan érdekes a fekete lyukak és az információs paradoxon esete?!](https://thebojda.github.io/my-gp-blog/posts/135187.html)
+[Mikor az ember már úgy érzi, hogy érti a DNS (és az élet) működését, kiderül,...](https://thebojda.github.io/my-gp-blog/archives/91251)
 
-[Project Tango és a VR jövője](https://thebojda.github.io/my-gp-blog/posts/135189.html)
+[Chromium Embedded](https://thebojda.github.io/my-gp-blog/archives/71143)
 
-[A Web, mint a mobil appok jövője](https://thebojda.github.io/my-gp-blog/posts/135192.html)
+[Önellátó robotgazdaságok](https://thebojda.github.io/my-gp-blog/archives/64285)
 
-[Meta Mesterséges Intelligencia (avagy egy lehetséges út az emberi szintű MI ...](https://thebojda.github.io/my-gp-blog/posts/135193.html)
+[Zebra (HTML5 Canvas Rich UI JavaScript Library)](https://thebojda.github.io/my-gp-blog/archives/45789)
 
-[Jill Bolte Taylor: My stroke of insight](https://thebojda.github.io/my-gp-blog/posts/135195.html)
+[A gwtproject.org a GWT új, közösségi oldala](https://thebojda.github.io/my-gp-blog/archives/45788)
 
-[Drónok és VR](https://thebojda.github.io/my-gp-blog/posts/135197.html)
+[Felvásárolta a Parse-t a Facebook](https://thebojda.github.io/my-gp-blog/archives/42321)
 
-[Milyen lesz a Google Glass utódja? (a MagicLeap)](https://thebojda.github.io/my-gp-blog/posts/135199.html)
+[Tabris](https://thebojda.github.io/my-gp-blog/archives/39265)
 
-[Gigafactory (a gép, amely a gépet építi)](https://thebojda.github.io/my-gp-blog/posts/135201.html)
+[myBatis](https://thebojda.github.io/my-gp-blog/archives/32846)
 
-[Útban a digitális emlékezet felé](https://thebojda.github.io/my-gp-blog/posts/135203.html)
+[Cloud 9 használata GitHubbal (1.)](https://thebojda.github.io/my-gp-blog/archives/27646)
 
-[Intel Project Alloy Merged Reality](https://thebojda.github.io/my-gp-blog/posts/135205.html)
+[Írtam DalvikVM-et Java-ban. :)](https://thebojda.github.io/my-gp-blog/archives/27625)
 
-[Milyenek lesznek a filmek 10 év múlva?!](https://thebojda.github.io/my-gp-blog/posts/135208.html)
+[A Prezi mint munkahely](https://thebojda.github.io/my-gp-blog/archives/27624)
 
-[A dolgok viszonylagosságáról](https://thebojda.github.io/my-gp-blog/posts/135210.html)
+[Xtend JSON](https://thebojda.github.io/my-gp-blog/archives/27623)
 
-[Holodeck az űrben](https://thebojda.github.io/my-gp-blog/posts/135212.html)
+[Xtend](https://thebojda.github.io/my-gp-blog/archives/25350)
 
-[Second Life was just the beginning](https://thebojda.github.io/my-gp-blog/posts/135214.html)
+[Portolják az Unreal Engine-t JavaScript-re](https://thebojda.github.io/my-gp-blog/archives/18102)
 
-[A Microsoft előre menekül az AR felé](https://thebojda.github.io/my-gp-blog/posts/135245.html)
+[Egy nagyon jó előadás Dr](https://thebojda.github.io/my-gp-blog/archives/16437)
 
-[Az emberi agy megértéséről](https://thebojda.github.io/my-gp-blog/posts/135247.html)
+[Az ember tragédiája mint Cloud Atlas](https://thebojda.github.io/my-gp-blog/archives/8174)
 
-[Genius By Stephen Hawking](https://thebojda.github.io/my-gp-blog/posts/135249.html)
+[jQuery alapok](https://thebojda.github.io/my-gp-blog/archives/8131)
 
-[Game of Life](https://thebojda.github.io/my-gp-blog/posts/135251.html)
+[PHP messageboard](https://thebojda.github.io/my-gp-blog/archives/7586)
 
-[Mikor jönnek az okosszemüvegek?!](https://thebojda.github.io/my-gp-blog/posts/135253.html)
+[Készítettem egy ilyen kis PHP + AngularJS mintát](https://thebojda.github.io/my-gp-blog/archives/7585)
 
-[Az MI mint oprendszer](https://thebojda.github.io/my-gp-blog/posts/135255.html)
+[AngularJS (1. alapok)](https://thebojda.github.io/my-gp-blog/archives/7106)
 
-[Daydream + Tango, jöhet az olcsó AR](https://thebojda.github.io/my-gp-blog/posts/135257.html)
+[Ez nem annyira alap JavaScript, de ha valaki rendelkezik alapvető HTML és JavaScript...](https://thebojda.github.io/my-gp-blog/archives/7105)
 
-[Elkészült Mark Zuckerberg MI-je](https://thebojda.github.io/my-gp-blog/posts/135259.html)
+[WordPress (nagyon)gyorstalpaló (bővítmények fejlesztése)](https://thebojda.github.io/my-gp-blog/archives/5129)
 
-[Magic Leap Concept Explored](https://thebojda.github.io/my-gp-blog/posts/135261.html)
+[PHP naplózás Chrome JavaScript konzolra](https://thebojda.github.io/my-gp-blog/archives/4574)
 
-[Nanorobotok gyémántból](https://thebojda.github.io/my-gp-blog/posts/135263.html)
+[WordPress (nagyon)gyorstalpaló (sablonkezelés)](https://thebojda.github.io/my-gp-blog/archives/4106)
 
-[Duplicity backup](https://thebojda.github.io/my-gp-blog/posts/135265.html)
+[WordPress (nagyon)gyorstalpaló (telepítés)](https://thebojda.github.io/my-gp-blog/archives/3931)
 
-[Az én MÁTRIX-om](https://thebojda.github.io/my-gp-blog/posts/135267.html)
+[Lokális fejlesztés XAMPP használatával](https://thebojda.github.io/my-gp-blog/archives/3455)
 
-[Westworld](https://thebojda.github.io/my-gp-blog/posts/135269.html)
+[Cloud 9 használata GitHubbal (4.)](https://thebojda.github.io/my-gp-blog/archives/3319)
 
-[Pure Genius](https://thebojda.github.io/my-gp-blog/posts/135271.html)
+[Cloud 9 használata GitHubbal (3.)](https://thebojda.github.io/my-gp-blog/archives/3024)
 
-[Platón párt](https://thebojda.github.io/my-gp-blog/posts/135273.html)
+[Google Chrome Developer Tools](https://thebojda.github.io/my-gp-blog/archives/3023)
 
-[Linux web- és mail szerver konfigurálása](https://thebojda.github.io/my-gp-blog/posts/135275.html)
+[Nem hiszek abban, hogy bárkit is negatív megerősítéssel ösztönözni lehetne...](https://thebojda.github.io/my-gp-blog/archives/3022)
 
-[SSL tanúsítvány ingyen (Let's encrypt)](https://thebojda.github.io/my-gp-blog/posts/135279.html)
+[Cloud 9 használata GitHubbal (2.)](https://thebojda.github.io/my-gp-blog/archives/2262)
 
-[Az élet falun](https://thebojda.github.io/my-gp-blog/posts/135282.html)
+[Lebegő szigetek](https://thebojda.github.io/my-gp-blog/archives/2172)
 
-[Jancsi és Juliska](https://thebojda.github.io/my-gp-blog/posts/135284.html)
+[Cloud 9 használata GitHubbal (1.)](https://thebojda.github.io/my-gp-blog/archives/1911)
 
-[Nerve](https://thebojda.github.io/my-gp-blog/posts/135288.html)
+[Leheletteszttel diagnosztizálható a rák](https://thebojda.github.io/my-gp-blog/archives/1613)
 
-[Az agy mint önálló univerzum (és a tudat mint ennek vetülete)](https://thebojda.github.io/my-gp-blog/posts/135290.html)
+[FON](https://thebojda.github.io/my-gp-blog/archives/968)
 
-[WP Super Cache](https://thebojda.github.io/my-gp-blog/posts/135292.html)
+[Mai napi szösszenet ... (csak úgy, mert eszembe jutott)](https://thebojda.github.io/my-gp-blog/archives/69)
 
-[WordPress GitHub Sync](https://thebojda.github.io/my-gp-blog/posts/135294.html)
+[Mai napi szösszenet ](https://thebojda.github.io/my-gp-blog/archives/68)
 
-[Számoljanak a bojlerek és a radiátorok!](https://thebojda.github.io/my-gp-blog/posts/135296.html)
+[Mai napi szösszenet ](https://thebojda.github.io/my-gp-blog/archives/67)
 
-[ZeroNet (decentralizált Internet BitCoin és torrent alapon)](https://thebojda.github.io/my-gp-blog/posts/135299.html)
+[Mai napi szösszenet ](https://thebojda.github.io/my-gp-blog/archives/66)
 
-[Elképzeltem milyen lehetett az első BitCoin tranzakció](https://thebojda.github.io/my-gp-blog/posts/135310.html)
+[Mai napi szösszenet ](https://thebojda.github.io/my-gp-blog/archives/65)
 
-[Áramszünet](https://thebojda.github.io/my-gp-blog/posts/135312.html)
+[Mai napi szösszenet ](https://thebojda.github.io/my-gp-blog/archives/64)
 
-[Symfony](https://thebojda.github.io/my-gp-blog/posts/135316.html)
+[Mai napi szösszenet ](https://thebojda.github.io/my-gp-blog/archives/63)
 
-[BitCoin bar (a legegyszerűbb BitCoin crowd founding megvalósítás)](https://thebojda.github.io/my-gp-blog/posts/135318.html)
+[Mai napi szösszenet ](https://thebojda.github.io/my-gp-blog/archives/62)
 
-[Szoftver művek](https://thebojda.github.io/my-gp-blog/posts/135320.html)
+[Napi szösszenet ](https://thebojda.github.io/my-gp-blog/archives/61)
 
-[Fényvezérelt nanobotok](https://thebojda.github.io/my-gp-blog/posts/135322.html)
+[Mai napi szösszenet ](https://thebojda.github.io/my-gp-blog/archives/60)
 
-[Miért nem lehet blokkolni a torrent trackereket?!](https://thebojda.github.io/my-gp-blog/posts/135324.html)
+[Építsünk agyat (The Human Brain Project)](https://thebojda.github.io/my-gp-blog/archives/59)
 
-[Önszervező alapjövedelem hálózat](https://thebojda.github.io/my-gp-blog/posts/135326.html)
+[Földhajók (teljesen önfenntartó luxusépületek, gyakorlatilag szemétből)](https://thebojda.github.io/my-gp-blog/archives/58)
 
-[Real life FarmVille](https://thebojda.github.io/my-gp-blog/posts/135328.html)
+[Gondolat olvasás és vizualizáció MRI alapján](https://thebojda.github.io/my-gp-blog/archives/48)
 
-[Miért félünk a sötétben?](https://thebojda.github.io/my-gp-blog/posts/135330.html)
+[Először sikerült összekötni két patkány agyát](https://thebojda.github.io/my-gp-blog/archives/47)
 
-[A dúsgazdag nincstelen](https://thebojda.github.io/my-gp-blog/posts/135334.html)
+[Cloud9](https://thebojda.github.io/my-gp-blog/archives/46)
 
-[Az utolsó](https://thebojda.github.io/my-gp-blog/posts/135336.html)
+[Az Android jövőjéről ](https://thebojda.github.io/my-gp-blog/archives/43)
 
-[Az arányos választás rendszerről](https://thebojda.github.io/my-gp-blog/posts/135339.html)
+[Egy koncepció videó bogárszerű mini drone-okról](https://thebojda.github.io/my-gp-blog/archives/42)
 
-[Mediumra költöztem](https://thebojda.github.io/my-gp-blog/posts/3.html)
+[Google+ bejegyzések olvasása PHP-ből](https://thebojda.github.io/my-gp-blog/archives/41)
 
-[Javascript async/await](https://thebojda.github.io/my-gp-blog/posts/135384.html)
+[Futtathatóak lesznek a Windows app-ok Androidon (wine for android)](https://thebojda.github.io/my-gp-blog/archives/40)
 
-[Egy rövid, de velős vitám Charles Strossal](https://thebojda.github.io/my-gp-blog/posts/135388.html)
+[Jöhetnek a tetovált eszközök](https://thebojda.github.io/my-gp-blog/archives/39)
 
-[Szegény ember HoloLens-e (Lenovo Mirage AR)](https://thebojda.github.io/my-gp-blog/posts/135394.html)
+[Kompakt fúziós erőművek jöhetnek a nem is olyan távoli jövőben](https://thebojda.github.io/my-gp-blog/archives/32)
 
-[Tanulócsoportok és virtuális iskolák](https://thebojda.github.io/my-gp-blog/posts/135402.html)
+[Szerintem szimbolikus kép ](https://thebojda.github.io/my-gp-blog/archives/31)
 
-[Fény alapú neurális hálók](https://thebojda.github.io/my-gp-blog/posts/135414.html)
+[Új designt kapott a blogom](https://thebojda.github.io/my-gp-blog/archives/30)
 
-[Gondolatolvasás fénnyel](https://thebojda.github.io/my-gp-blog/posts/135420.html)
+[Tanuljunk programozni JavaScript alapokon](https://thebojda.github.io/my-gp-blog/archives/29)
 
-[Amazon LightSail](https://thebojda.github.io/my-gp-blog/posts/135426.html)
+[SIMD műveletek Dart-ban (avagy miért érdemes Dart-ban programozni)](https://thebojda.github.io/my-gp-blog/archives/17)
+
+[Google Glass, a világ leghatékonyabb megfigyelő rendszere](https://thebojda.github.io/my-gp-blog/archives/16)
 
