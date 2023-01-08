@@ -1,7 +1,7 @@
 {
-  "name": "my-wordpress-blog",
+  "name": "my-gp-blog",
   "version": "1.0.0",
-  "description": "This is a backup of my Wordpress blog. (http://lf.estontorise.hu/)",
+  "description": "This is a backup of my Google Plus Wordpress blog.",
   "main": "index.js",
   "scripts": {
     "start": "ts-node index.ts",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheBojda/my-wordpress-blog.git"
+    "url": "git+https://github.com/TheBojda/my-gp-blog.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TheBojda/my-wordpress-blog/issues"
+    "url": "https://github.com/TheBojda/my-gp-blog/issues"
   },
-  "homepage": "https://github.com/TheBojda/my-wordpress-blog#readme",
+  "homepage": "https://github.com/TheBojda/my-gp-blog#readme",
   "dependencies": {
     "ejs": "^3.1.8",
     "fast-xml-parser": "^4.0.0-beta.6",
