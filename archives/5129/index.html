@@ -8,7 +8,9 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>WordPress (nagyon)gyorstalpaló (bővítmények fejlesztése) - Gondolatok (Fazekas László blogja)</title>
+	<title>
+		WordPress (nagyon)gyorstalpaló (bővítmények fejlesztése) - Gondolatok (Fazekas László blogja)
+	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="keywords" content="Android, Android fejlesztő, Android programozó, Gondolatok, Fazekas László, PHP, PHP fejlesztő, J2EE, Java, J2EE fejelsztő, szabadúszó, programozó" />
 	<meta name="description" content="Gondolatok - Fazekas László blogja" />
@@ -117,34 +119,34 @@
 			<div class="span7" style="margin-left: 0px;" role="main">
 				<article class="post-727 post type-post status-publish format-standard hentry category-nincs-kategorizalva">
 					<header>
-						<h1 class="entry-title">WordPress (nagyon)gyorstalpaló (bővítmények fejlesztése)</h1>
+						<h1 class="entry-title">
+							WordPress (nagyon)gyorstalpaló (bővítmények fejlesztése)
+						</h1>
 					</header>
 					<div class="entry-content">
 						<div class="gpb-content"><br />Ez a bejegyzés némi PHP tudást feltételez, de ennek ellenére nem lesz bonyolult. Igazából szerintem a WordPress leglenyűgözőbb tulajdonsága az egyszerűsége. De lássuk, hogy is megy ez ...<br /><br />Ahogyan a dolog nevéből is adódik, a bővítmények segítségével új funkcionalitással bővíthetjük a rendszert. Ilyen kiegészítők segítségével szinte bármit megvalósíthatunk. A bővítmények a sablonokhoz hasonlóan a wp-content mappában találhatóak, a plugins könyvtárban. A pluginek felépítése is nagyon hasonló a sablonokéhoz. A WordPress végigszalad a plugins könyvtár tartalmán. Az ott található php fájlok, illetve könyvtárak tartalmazhatnak plugineket. A plugin adatok a sablonokhoz hasonlóan a fájl elején kommentben találhatóak. Ha a plugin könyvtárban található, akkor a WordPress a könyvtár nevével megegyező php állományt keres. Tehát ha a plugin a 'test' könyvtárban található, akkor 'test.php'-t. Minden WordPress változatban található egy 'Hello Dolly' nevű teszt plugin, amit a plugins könyvtárban találhatunk hello.php néven. Ennek az elején láthatjuk az előbb említett komment részt a plugin nevével és leírásával. Ez alapján már elkészíthetjük a saját bővítményünket. Hozzunk létre mondjuk egy test.php nevű állományt a plugins könyvtárban, és kommentek segítségével adjunk neki nevet és leírást. Ha minden jól megy, ez már elég ahhoz, hogy a pluginünk megjelenjen a bővítmények listájában. Ugyanígy működni fog az is, ha a test.php-t egy test nevű könyvtárban helyezzük el az esetleges egyéb állományokkal.<br /><br />Tehát van már egy bővítményünk, ami egyenlőre nem csinál semmit. Most jöhet az, hogy valami tényleges funkcionalitást adjunk a rendszerhez. Erre a WordPress-ben az action-ök és a filterek szolgálnak. Az action-ök olyan pontok a rendszerben, ahová saját működést szúrhatunk be. Ilyen action például az oldal fejlécének generálása, vagy éppen az, hogy a rendszer kigenerált egy blogbejegyzést. Vegyünk például egy olyan plugint, ami egy megosztó sávot (like, G+, stb.) helyez a bejegyzések aljára. Egy ilyen plugin-nak a bejegyzés generálása után meghívódó action-re kell regisztrálnia egy függvényt. Ahogy a WordPress generálja az oldal darabjait, az egyes action-öknél meghívja a mi kezelőinket, így avatkozhatunk be az oldalgenerálás folyamatába.<br /><br />A filter a beavatkozás másik formája. Ez egy olyan függvény, ami valami adatot kap a paraméterében, és valami változtatást végez rajta. Így például bizonyos karaktersorozatokat cserélhetünk le a tartalomban, menü elemeket adhatunk az admin felülethez, és hasonlók.<br /><br />Az action-ökön és filtereken túl van még pár lehetőség a működésbe való beavatkozásra, de az esetek nagy többségében ezeken keresztül adhatjuk hozzá az új működést a rendszerhez. Ráadásul a kialakítás annyira flexibilis, hogy szinte bármit megoldhatunk WordPress-en belül.<br /><br />Igazából a plugin fejlesztésről könyvet lehetne írni, de indulásnak talán ennyi elég. A továbblépéshez a WordPress Codex vonatkozó fejezeteit tudom ajánlani: <a href="http://codex.wordpress.org/Plugins">http://codex.wordpress.org/Plugins</a> , de ezen kívül is sok tutorial található a weben, illetve sokat tanulhatunk már meglévő plugin-ek forráskódjának böngészésével is.<br /><br /> <a rel="nofollow" class="ot-hashtag" href="https://plus.google.com/s/%23blog">#blog</a>   ﻿</div><p class='gpb-links' style='clear:both;'> <a class='gpb-linkback' href='https://plus.google.com/115334992192871078712/posts/DpavTXey3Wm' target='_new'>View this post on Google+</a></p>
 					</div>
 					<footer>
-						
+
 					</footer>
 				</article>
 			</div><!-- /.main -->
 			<aside role="complementary">
 				<div class="span3" style="width: 190px; opacity: 0.6; font-size: 10px;">
-					<div style="background-color: #eee; padding: 5px;"><a rel="author" href="https://plus.google.com/115334992192871078712?rel=author" target="_blank">
-							<img src="../assets/img/profile.jpg" class="img-rounded" alt="Laszlo Fazekas (TheBojda) - Szabad�sz� Android, PHP, J2EE fejleszt?">
-						</a>
-						<div data-href="//plus.google.com/115334992192871078712" data-rel="author" style="display: none;"></div>
+					<div style="background-color: #eee; padding: 5px;">
+						<img src="../../assets/img/profile.jpg" class="img-rounded" alt="Laszlo Fazekas (TheBojda)">
 						<p style="margin-top: 10px;">
 							Szabadúszó fejlesztőként dolgozom már jópár éve. Főleg J2EE, Android, és PHP projekteket vállalok, de sok más technológiába belekóstoltam már.
 							Bővebb információért olvasd el <a href="../../assets/fazekas_laszlo_cv_hu.pdf">szakmai önéletrajzomat</a>.</p>
-						<p>Hobbim a programozás mellett az olvasgatás. Főleg a természettudományok érdekelnek, azon belül is leginkibb a fizika.</p>
-						<p>A jelenlegi mellett van egy új blogom <a href="https://medium.com/@thebojda">Medium</a>-on, egyéb gondolataimat, vagy az általam érdekesnek talált cikkeket/híreket pedig általában <a
-								href="https://plus.google.com/115334992192871078712">Google+</a>-on osztom meg. A jobb bejegyzéseknek kicsatornáztam egy külön blogba, amit a <a href="http://gp.estontorise.hu/" target="_blank">gp.estontorise.hu</a>
-							címen érhetsz el. Ha nem használod a Google+-t, de szeretnél követni, akkor megteheted <a href="https://www.facebook.com/laszlofazekas.googleplus" target="_blank">Facebook</a>-on, vagy <a
-								href="https://twitter.com/TheBojda" target="_blank">Twitteren</a> is. E-mailben pedig a <a id="email" href="#"></a> címen érhetsz el.</p>
-						<script>var mail = document.getElementById("email"); mail.innerHTML = "laszlo" + "." + "fazekas" + "@" + "estotorise." + "hu";</script>
+						<p>Hoszabb eszmefuttatásokat főleg a <a href="http://lf.estontorise.hu">blogomon</a> és <a href="https://medium.com/@thebojda">Medium</a>-on,
+							az általam érdekesnek talált cikkeket/híreket pedig általában <a href="https://www.facebook.com/laszlofazekas.googleplus">Google+</a>-on osztom meg.
+							Ez az oldal egy válogatás a G+-on megosztott posztjaimból. Ha nem használod a Google+-t, de szeretnél követni,
+							akkor megteheted <a href="https://www.facebook.com/laszlofazekas.googleplus" target="_blank">Facebook</a>-on, vagy <a href="https://twitter.com/TheBojda" target="_blank">Twitteren</a> is.
+							E-mailben pedig a <a id="email" href="#"></a> címen érhetsz el.</p>
+						<script>var mail = document.getElementById("email"); mail.innerHTML = "laszlo" + "." + "fazekas" + "@" + "estotorise." + "hu"; </script>
 						<p>
-							<a href="https://twitter.com/TheBojda" target="_blank"><img src="../assets/img/twitter.png" alt="twitter" /></a>
-							<a href="https://github.com/TheBojda" target="_blank"><img src="../assets/img/github.png" alt="github" /></a>
+							<a href="https://twitter.com/TheBojda" target="_blank"><img src="../../assets/img/twitter.png" alt="twitter" /></a>
+							<a href="https://github.com/TheBojda" target="_blank"><img src="../../assets/img/github.png" alt="github" /></a>
 						</p>
 					</div>
 				</div>

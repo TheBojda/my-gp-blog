@@ -8,7 +8,9 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>jQuery alapok - Gondolatok (Fazekas László blogja)</title>
+	<title>
+		jQuery alapok - Gondolatok (Fazekas László blogja)
+	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="keywords" content="Android, Android fejlesztő, Android programozó, Gondolatok, Fazekas László, PHP, PHP fejlesztő, J2EE, Java, J2EE fejelsztő, szabadúszó, programozó" />
 	<meta name="description" content="Gondolatok - Fazekas László blogja" />
@@ -117,34 +119,34 @@
 			<div class="span7" style="margin-left: 0px;" role="main">
 				<article class="post-727 post type-post status-publish format-standard hentry category-nincs-kategorizalva">
 					<header>
-						<h1 class="entry-title">jQuery alapok</h1>
+						<h1 class="entry-title">
+							jQuery alapok
+						</h1>
 					</header>
 					<div class="entry-content">
 						<div class="gpb-content"><br />A jQuery az egyik legelterjedtebb JavaScript programkönyvtár. Rengeteg oldal használja, és sok JavaScript keretrendszer épül rá. A követezőkben nagyon röviden azt szeretném bemutatni, hogy mi is ez a jQuery, miért jó, és mire lehet használni. A leírás olvasása alapvető HTML és CSS és JavaScript ismereteket igényel. Ezekre nem térek majd ki külön, mert nagyon elnyújtaná a bejegyzést.<br /><br />Ha egy mondatban kellene meghatározni, akkor azt mondanám, hogy a jQuery olyasmi mint a CSS, csak itt nem designt rendelünk az egyes HTML elemekhez, hanem működést. Az elemek kijelöléséhez ugyanazokat a szelektorokat használhatjuk, mint CSS esetén, és az így kijelölt elemeket manipulálhatjuk, eseménykezelőket aggathatunk rájuk, lekérdezhetjük az értéküket, vagy valamilyen más működéssel láthatjuk el. Hamarosan mutatok példákat is, de gyorsan nézzük át, mik ennek az egésznek az előnyei:<br /><br />- Ahogyan a CSS esetén elválik a design a HTML kódtól, ugyanúgy leválasztható a jQuery segítségével a működés is az elemekről. (Ez véleményem szerint néha hasznos, néha nem, de ebbe most ne menjünk bele.)<br />-  A jQuery-s működés elrejti előlünk a böngészők közötti különbséget. Amire adott esetben többféle elágaztatott JavaScript-re lenne szükség, az jQuery-ben egyetlen hívással megoldható. A jQuery egyébként (tudtommal) az összes ismert nagy böngészőt támogatja, ide értve a desktop és mobil változatokat is.<br />- Sok mindent sokkal egyszerűbb megoldani jQuery-ben, mint tiszta JavaScript-ben, ráadásul nagyon egyszerűen lehet hozzá új funkciókat adni pluginek formájában, és rengeteg plugin elérhető hozzá a weben. Köztük olyan komplex dolgok is, mint wysiwyg editor, adattáblák, tree komponens, miegymás.<br /><br />No, akkor nézzük is, hogy megy mindez a gyakorlatban. Ha jQuery-t szeretnénk használni, akkor ugye egy script tag-el be kell hivatkozni. Ezt két módon tehetjük meg. Vagy letöltjük a jQuery aktuális változatát, és azt használjuk, vagy CDN-ről hivatkozzuk be. A CDN egy fix hely a weben, ahol az aktuális változat megtalálható. A legismertebb ilyen CDN a Google féle (<a href="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js</a>). Ennek az az előnye, hogy innen a böngésző egyszer letölti a JavaScript kódot, és utána cache-eli. Mivel sokan használják így a jquery-t, ezért jó esetben már valószínűleg cache-elve van a böngészőben, így mikor a mi weblapunk töltődik be, ezt már nem kell újra letölteni. Olyan baromi nagy különbség amúgy nincs a két megoldás közt, csak érdekesség.<br /><br />Ha behivatkoztuk a lib-et, elkezdhetjük használni. Készítsünk egy kis HTML olalt, amin van egy gomb (button tag). Rakjunk erre egy eseménykezelőt, ami klikkelésre kiír valami üzenetet. Ez így néz ki:<br /><br />$('button').click(function(){<br />  alert('Hello World');<br />})<br /><br />Láthatóan nem valami bonyolult. A jQuery-re a $ fv.-el tudunk hivatkozni, aminek paramétere egy css szelektor. Ezek ugyanazok a jelölések, amit css esetén használunk az elemek kijelölésére. Tehát a $('button') jelen esetben azt jelenti, hogy minden button elem-re vonatkozzon a kijelölés. Ezt ki is próbálhatjuk. Rakjunk be még egy gombot az oldalra. Így akármelyikre gyomunk, meg fog jelenni az alert. A $ jel helyett használhatjuk a jQuery nevet is, de olyat is láttam, ahol jq-t használtak. Tehát a $('button'), a jQuery('button') és a jq('button') ugyanazt jelölik. Ha kijelöltük az elemet, akkor jöhetnek az azon végzett műveletek. Jelen esetben a click, ami egy eseménykezelőt helyez az adott elemre. Most nézzünk egy olyan példát, ahol nem eseménykezelőt rakunk az elemre, hanem valamilyen manipulációt végzünk rajta.<br /><br />$('button').css('font-weight', 'bold');<br /><br />Ez a sor az összes gomb font-weight tulajdonságát bold-ra állítja, tehát minden gomb felirata vastagon lesz szedve. A jQuery hívásokat láncolhatjuk is, így:<br /><br />$('button').css('font-weight', 'bold').click(function() {<br />  alert('!!!');<br />			})<br /><br />Persze kettőnél sokkal több hívás is követheti egymást, így egész komplex működéseket egész egyszerűen írhatunk le. Ha egy eseménykezelőben az aktuális elemre akarunk hivatkozni, azt a this kulcsszóval tehetjük meg. A this ez esetben a HTML objektumot jelöli, így ha jQuery-s műveletet akarunk rajta végezni, akkor $()-be kell rakni. Erre itt egy példa:<br /><br />$('button').click(function() {<br />  $(this).hide('slow');<br />			});<br /><br />Ez így annyit csinál, hogy ha megnyomjuk a gombot, akkor szépen animálva elrejti azt. De ez alapján elrejthetünk/megjeleníthatünk komplett formokat, stb.<br /><br />Eddig ugye minden esetben a gombok mindegyikére vonatkozott az adott művelet. Ha pontosabban ki szeretnénk jelölni a célt, akkor használjuk a szokásos css szelektorokat. Adjunk az egyik gombnak egy 'gomb' class-t. Erre a $('.gomb') -al hivatkozhatunk. Így csak a 'gomb' osztályú elemekre fog hivatkozni az adott hívás. Ha egy adott elemet akarunk kijelölni, akkor adjunk neki valami id-t. Ha 'gomb' id-t adunk neki, akkor a css-hez hasonlóan $('#gomb') -al hivatkozhatunk rá. De persze mennek a bonyolultabb szelektorok is. Pl. az item class-u li elemeken belüli gomb class-u gombok, stb.<br /><br />Amivel még gyakran találkozni, az a $('document').ready esemény, ami jQuery-ben az onload megfelelője. Tehát amit ide írunk, az akkor fog végrehajtódni, ha már teljesen betöltődött az oldal. Amolyan ökölszabályként elmondható, hogy érdemes a teljes jQuery kódot ebbe írni, valahogy így:<br /><br />$( document ).ready(function() {<br />  $('button').click(function() {<br />    $(this).hide('slow');<br />  });<br />  ...<br />});<br /><br />Hát, indulásnak kb. ennyi szerintem elég. Rengeteg példát találni weben, és a jQuery honlapján (<a href="http://jquery.com/">http://jquery.com/</a>). Igény esetén készülhet hasonló leírás egy egy témáról, de mivel a jQuery eszközkészlete elég szerteágazó, írjátok le, hogy pontosan melyik része érdekel, és ha azzal a résszel kapcsolatban van tapasztalat, azt szívesen leírom.<br /><br /> <a rel="nofollow" class="ot-hashtag" href="https://plus.google.com/s/%23blog">#blog</a>   <a rel="nofollow" class="ot-hashtag" href="https://plus.google.com/s/%23jquery">#jquery</a>﻿</div><p class='gpb-links' style='clear:both;'> <a class='gpb-linkback' href='https://plus.google.com/115334992192871078712/posts/Ro2aWP3oTBW' target='_new'>View this post on Google+</a></p>
 					</div>
 					<footer>
-						
+
 					</footer>
 				</article>
 			</div><!-- /.main -->
 			<aside role="complementary">
 				<div class="span3" style="width: 190px; opacity: 0.6; font-size: 10px;">
-					<div style="background-color: #eee; padding: 5px;"><a rel="author" href="https://plus.google.com/115334992192871078712?rel=author" target="_blank">
-							<img src="../assets/img/profile.jpg" class="img-rounded" alt="Laszlo Fazekas (TheBojda) - Szabad�sz� Android, PHP, J2EE fejleszt?">
-						</a>
-						<div data-href="//plus.google.com/115334992192871078712" data-rel="author" style="display: none;"></div>
+					<div style="background-color: #eee; padding: 5px;">
+						<img src="../../assets/img/profile.jpg" class="img-rounded" alt="Laszlo Fazekas (TheBojda)">
 						<p style="margin-top: 10px;">
 							Szabadúszó fejlesztőként dolgozom már jópár éve. Főleg J2EE, Android, és PHP projekteket vállalok, de sok más technológiába belekóstoltam már.
 							Bővebb információért olvasd el <a href="../../assets/fazekas_laszlo_cv_hu.pdf">szakmai önéletrajzomat</a>.</p>
-						<p>Hobbim a programozás mellett az olvasgatás. Főleg a természettudományok érdekelnek, azon belül is leginkibb a fizika.</p>
-						<p>A jelenlegi mellett van egy új blogom <a href="https://medium.com/@thebojda">Medium</a>-on, egyéb gondolataimat, vagy az általam érdekesnek talált cikkeket/híreket pedig általában <a
-								href="https://plus.google.com/115334992192871078712">Google+</a>-on osztom meg. A jobb bejegyzéseknek kicsatornáztam egy külön blogba, amit a <a href="http://gp.estontorise.hu/" target="_blank">gp.estontorise.hu</a>
-							címen érhetsz el. Ha nem használod a Google+-t, de szeretnél követni, akkor megteheted <a href="https://www.facebook.com/laszlofazekas.googleplus" target="_blank">Facebook</a>-on, vagy <a
-								href="https://twitter.com/TheBojda" target="_blank">Twitteren</a> is. E-mailben pedig a <a id="email" href="#"></a> címen érhetsz el.</p>
-						<script>var mail = document.getElementById("email"); mail.innerHTML = "laszlo" + "." + "fazekas" + "@" + "estotorise." + "hu";</script>
+						<p>Hoszabb eszmefuttatásokat főleg a <a href="http://lf.estontorise.hu">blogomon</a> és <a href="https://medium.com/@thebojda">Medium</a>-on,
+							az általam érdekesnek talált cikkeket/híreket pedig általában <a href="https://www.facebook.com/laszlofazekas.googleplus">Google+</a>-on osztom meg.
+							Ez az oldal egy válogatás a G+-on megosztott posztjaimból. Ha nem használod a Google+-t, de szeretnél követni,
+							akkor megteheted <a href="https://www.facebook.com/laszlofazekas.googleplus" target="_blank">Facebook</a>-on, vagy <a href="https://twitter.com/TheBojda" target="_blank">Twitteren</a> is.
+							E-mailben pedig a <a id="email" href="#"></a> címen érhetsz el.</p>
+						<script>var mail = document.getElementById("email"); mail.innerHTML = "laszlo" + "." + "fazekas" + "@" + "estotorise." + "hu"; </script>
 						<p>
-							<a href="https://twitter.com/TheBojda" target="_blank"><img src="../assets/img/twitter.png" alt="twitter" /></a>
-							<a href="https://github.com/TheBojda" target="_blank"><img src="../assets/img/github.png" alt="github" /></a>
+							<a href="https://twitter.com/TheBojda" target="_blank"><img src="../../assets/img/twitter.png" alt="twitter" /></a>
+							<a href="https://github.com/TheBojda" target="_blank"><img src="../../assets/img/github.png" alt="github" /></a>
 						</p>
 					</div>
 				</div>
